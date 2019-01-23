@@ -1,0 +1,21 @@
+= Du néant à la galaxie Antora
+:source-highlighter: highlightjs
+:revealjs_theme: league
+:revealjs_progress: true
+:revealjs_slideNumber: true
+:revealjs_history: true
+:customcss: /themes/tnt/styles.css
+
+include::content/point-depart.adoc[leveloffset=+1]
+
+include::content/feelings.adoc[leveloffset=+1]
+
+include::content/asciidoctor.adoc[leveloffset=+1]
+
+include::content/antora.adoc[leveloffset=+1]
+
+include::content/next-gen.adoc[leveloffset=+1]
+
+== Et n'oubliez pas...
+
+La doc c'est comme le PQ, ca sert à se démerder tout seul !

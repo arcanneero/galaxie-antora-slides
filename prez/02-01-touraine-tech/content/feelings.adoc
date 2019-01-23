@@ -1,0 +1,45 @@
+= Feeling (good... or not)
+
+== Ca pourrait être pire...
+
+Syntaxes simplifiés
+
+[NOTE.speaker]
+====
+Comme on peut retrouvé dans des wiki ou dans du markdown
+
+Mais ca s'arrete là...
+====
+
+== Oui, mais...
+
+Là, on a une collection !
+
+[NOTE.speaker]
+====
+
+Enfonçons des portes ouvertes...
+
+====
+
+== Oui, mais...
+
+* Frustration
+* Difficultés de mises à jour
+* Absence de partage de connaissance
+
+[NOTE.speaker]
+====
+Frustration des nouveaux arrivants
+- Besoin de "déranger" qq'un en permanance
+
+Difficultés de mises à jour
+- Processus de maj long et fastidieux (a décrire)
+- Outils trops différents des IDE
+
+Absence de partage de connaissances
+- Pas de relecture (hors contractuelle)
+- Personnnes rendues indispenables
+- Connaissances morcelées (!= outils)
+
+====

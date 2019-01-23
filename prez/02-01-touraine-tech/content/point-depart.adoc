@@ -1,0 +1,67 @@
+= Points de départ
+
+[NOTE.speaker]
+====
+Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
+====
+
+== Qui sommes nous ?
+
+Gautier et Nicolas
+
+== De l'utile à l'indispensable
+
+Janvier 2017 : Début de projet From scatch
+
+[NOTE.speaker]
+====
+
+Début d'un projet (01-17) from scratch en tant que lead dev en binome
+ - Besoin de documenter ce qui est fait, mais peu de temps
+ - Expérience passé en markdown, donc on fait quelques doc markdown, un peu de wiki
+ - Doc contractuelle traditionnelle (suite bureautique)
+ - Un binome contributeur Asciidoctor.js...
+ - J'ai fuis au bout de 3 mois
+
+====
+
+== De l'utile à l'indispensable
+
+Janvier 2018 : Récupération d'un projet historique
+
+[NOTE.speaker]
+====
+Nouveau projet (01-18) => mise en place de doc as code sans concessions
+====
+
+== Une nécéssité devenue vitale
+
+Déjà sensibilisé à la Doc As Code
+
+[NOTE.speaker]
+====
+Blog hubpress (asiidotor sur github-pages) par un contributeur Asciidotor.js....
+
+Prise de note et slide deck.
+====
+
+== Une nécéssité devenue vitale
+
+Septembre 2017 : Arrivé sur un projet de moins d'un an
+
+[NOTE.speaker]
+====
+
+Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
+Souhaite accéder à la documention :
+ - Doc pas à jour
+ - Absence de lead pendant un bon semestre
+ - Doc dans des GED (format traditionnel)
+ - Pas forcéments tout les droits (presta)
+====
+
+== Ce qui nous lie
+
+=== Sensibilité à la doc
+
+Un seul but : Le partage de connaissance.

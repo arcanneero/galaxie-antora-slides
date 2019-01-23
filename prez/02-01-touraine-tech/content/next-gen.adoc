@@ -1,0 +1,36 @@
+= Pour aller plus loin
+
+[NOTE.speaker]
+====
+On a parlé de la documentation "as word", allons un peu plus loin
+====
+
+== Plant UML
+
+[NOTE.speaker]
+====
+Pour faire des diagrammes
+====
+
+== Les slidesdeck
+
+RevealJS / Deckonf.io
+
+[NOTE.speaker]
+====
+Intégration d'asciidoctor.js à reveallJS
+ou des initiatives : Deckonf.io
+
+Pas d'intégration avec Antora
+Gestion manuelle pour avoir un contenu aggrégé
+====
+
+== Les blogs
+
+Hubpress
+
+[NOTE.speaker]
+====
+- N'est plus maintenu (avis aux amateurs !)
+- Repose sur l'API Github
+====

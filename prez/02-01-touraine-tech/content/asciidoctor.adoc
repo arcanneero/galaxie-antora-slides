@@ -1,0 +1,140 @@
+= Asciidoc(tor)
+
+[NOTE.speaker]
+====
+Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier)
+====
+
+== Pourquoi cet outil ?
+
+De nos constats...
+
+[NOTE.speaker]
+====
+Volonté d'aller vers la doc as code.
+De rapprocher la doc du code (dans les dépots git)
+
+Deux vrai possibilité : Markdown vs Asciidoctor
+====
+
+== Pourquoi cet outil ?
+
+Une faiblesse qui peut être une force
+
+Quelques simplicité syntaxiques
+
+Gestion dans un Git
+
+[NOTE.speaker]
+====
+- Pas de problème de flavours (spec Asciidoc)
+- Insertion de fragment de fichier
+- Syntaxe plus cohérente
+- Les devs ont les droits !
+====
+
+== Parce que la doc ce n'est pas toujours un long fleuve tranquille...
+
+[NOTE.speaker]
+====
+La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
+====
+
+==  Build
+
+[NOTE.speaker]
+====
+En Ruby, mais
+
+Accessible à tous, grace à Gradle ou JS
+====
+
+==  Build
+
+```groovy
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
+        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.15'
+    }
+}
+```
+
+[NOTE.speaker]
+====
+
+Mise en place de build avec Graddle
+- Syntaxe ulta simple
+- Génération de PDF
+====
+
+==  Build
+
+```groovy
+
+asciidoctor {
+    backends 'html5', 'pdf'
+    dependsOn clean
+    sourceDir = file('src/asciidoc')
+    sources {
+        include '**/*.adoc'
+        exclude '**/content/**'
+    }
+    resources {
+        from (sourceDir) {
+            include '**/resources/**'
+        }
+    }
+    outputDir = file('build/docs')
+}
+```
+
+==  Deploy
+
+Le Dockerfile le plus compliqué du monde
+
+```
+FROM nginx
+
+COPY build/docs/html5 /usr/share/nginx/html
+```
+
+[NOTE.speaker]
+====
+Déploiement Continue - Jenkins / Docker / NginX
+====
+
+==  Mais nos dépôts deviennent bordéliques
+
+==  Une structuration partagée
+
+[NOTE.speaker]
+====
+- Plusieurs projets sur un plateau
+- Pourquoi ne pas avoir une base commune ?
+- Ce sont finalement les mêmes questqion qu'avec une doc traditionnelle
+====
+
+==  Une structuration partagée
+
+* Démarrage - Quickstart
+* Environnements - Environements
+* Recommandation - Guidlines
+* Manuels - How to
+
+== Et si on avait plusieurs dépôts ?
+
+TODO : Schéma (NGI)
+
+[NOTE.speaker]
+====
+
+Comment la problématique d'agrégation a été prise en compte
+- Dépot sous format zip des éléments générés
+- Mise en place d'aggrégarteur via Dockerfile (schémas)
+
+====

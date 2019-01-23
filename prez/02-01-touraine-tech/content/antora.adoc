@@ -1,0 +1,140 @@
+= Antora
+
+Petite histoire...
+
+[NOTE.speaker]
+====
+Au détour d'un café, Gautier parle d'Antora
+(Décembre 2017- L'alpha n'est pas sortie)
+
+Premiers tests autour de mars 2018 - Très mauvais premères impressions
+
+- Structure très stricte (trop ?) - Convention over configuration
+- Et sous Windows, c'était l'enfer... (ssh agent)
+====
+
+== Kesako ?
+
+[NOTE.speaker]
+====
+Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
+ - SEO du site de documentation (public)
+ - Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)
+ - Gestion de liens entre les contenus
+====
+
+== Les fonctionnalités du produit
+
+== L'aggrégateur ou playbook
+
+- Un descripteur - playbook
+- Des dépots - git
+- Un thème - ui
+
+[NOTE.speaker]
+====
+Structure stricte
+====
+
+== Les dépots
+
+- Un descripteur - antora.yml
+- Des modules
+
+[NOTE.speaker]
+====
+
+====
+
+== Les modules
+
+- Une navigation - nav.adoc
+- Des pages
+- Des assets
+- Du code
+
+[NOTE.speaker]
+====
+`nav.adoc` par convention.
+Permet de construire le menu
+
+Assets contient les images et autres ressources
+====
+
+== La UI
+
+Utilise Handlbars
+
+[NOTE.speaker]
+====
+Partie sans aucun doute la plus velue.
+
+Customizable moyennant quelques compétances Front-End
+====
+
+[state=v_background min_js]
+== Regardons un projet...
+
+== L'intégration dans nos projets
+
+== Avoir la doc au plus près du code du produit
+
+[NOTE.speaker]
+====
+- Chaque produit contient sa doc
+- Coustitution de dépot spécifique pour les pratiques communes
+- Les dépots annexes ont aussi leur documentation (infra as code, chatbot d'équipe)
+====
+
+== Mise en place des processus de dev sur la doc
+
+[NOTE.speaker]
+====
+* Merge request / relecture / approbations
+* Déploiement continu
+====
+
+== Sécurisation des accès
+
+- Frontal d'accès
+- Gestion de plusieurs déploiements
+
+[NOTE.speaker]
+====
+Partage des rendu potentiellement sous autentification ::
+* Frontal permettant l'accès total (gestion partielle trop complexe)
+* Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits
+====
+
+== Les perspectives et limitations
+
+== Projet vivant
+
+Version 2 publiée le 25 décembre 2018
+
+== Intégration d'un moteur de recherche
+
+Doit être intégré manuellement pour le moment
+
+[NOTE.speaker]
+====
+Intégration d'un moteur de recherche
+- Algolia
+- Elasticsearch (fess)
+====
+
+== En vrac
+
+- Gestion d'un thème différents selon les compsants
+- Aggérgéation de slidesdeck
+- Amélioration de la cli
+
+[NOTE.speaker]
+====
+. Actuellement, nous avons forcément un thème par playbook
+. Besoin très personnel mais qui serait très différenciant !
+. Divers point :
+** Générer un squelette de playbook
+** Générer un nouveau composant
+** Générer un nouveau module
+====

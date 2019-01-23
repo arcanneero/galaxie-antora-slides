@@ -6,4 +6,227 @@
 :revealjs_history: true
 :customcss: /themes/tnt/styles.css
 
+== Point de départ
 
+Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
+
+[NOTE.speaker]
+====
+
+Début d'un projet (01-17) from scratch en tant que lead dev en binome
+ - Besoin de documenter ce qui est fait
+ - peu de temps
+ - Expérience passé en markdown
+ - Quelques doc markdown, un peu de wiki
+ - Doc contractuelle traditionnelle
+ - Un binome contributeur Asciidoctor.js...
+ - Nouveau projet (01-18) => mise en place de doc as code sans concessions
+
+Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
+Souhaite accéder à la documention :
+ - Doc pas à jour
+ - Absence de lead pendant un bon semestre
+ - Doc dans des GED (format traditionnel)
+ - Pas forcéments tout les droits (presta)
+ - Blog hubpress (asiidotor sur github-pages) par un contributeur Asciidotor.js....
+
+=> Sensibilité à la doc et au partage de connaissance.
+5 min
+====
+
+== Feeling (good... or not) (5min)
+
+[NOTE.speakers]
+====
+
+Enfonçons des portes ouvertes...
+
+Frustration des nouveaux arrivants
+- Besoin de "déranger" qq'un en permanance
+
+Difficultés de mises à jour
+- Processus de maj long et fastidieux (a décrire)
+- Outils trops différents des IDE
+
+Absence de partage de connaissances
+- Pas de relecture (hors contractuelle)
+- Personnnes rendues indispenables
+- Connaissances morcelées (!= outils)
+
+====
+
+== Asciidoc(tor) (15min)
+
+=== Pour cet outil ?
+
+[NOTE.speakers]
+====
+
+Partie d'un consta
+Volonté d'aller vers la doc as code
+De rapprocher la doc du code (dans les dépots git)
+
+Deux vrai possibilité : Markdown vs Asciidoctor
+=> Asciidoc
+
+Pas de problème de flavours
+Insertion de fragment de fichier
+Syntaxe plus cohérente
+
+====
+
+
+=== Le parcours commun
+
+
+[NOTE.speakers]
+====
+
+Mise en place de build avec Graddle
+- Syntaxe ulta simple
+- Génération de PDF
+
+Déploiement Continue
+- Docker / NginX
+
+Structuration
+- Plusieurs projets sur un plateau
+- Pourquoi ne pas avoir une base commune ?
+
+Comment la problématique d'agrégation a été prise en compte
+- Dépot sous format zip des éléments générés
+- Mise en place d'aggrégarteur via Dockerfile (schémas)
+
+Possibilité de faire de la modélisation UML (PlantUML)
+- Nous on l'a pas utilisé
+- Mis en place sur un projets à coté de nous
+
+====
+
+== Antora (15min)
+
+[NOTE.speakers]
+====
+Au détour d'un café, Gautier parle d'Antora (Décembre 2017), L'alpha n'est pas sortie
+Prmiers tests autour de mars 2018 - Très mauvais premères impressions
+- Structure Très stricte (trop ?)
+- Et sous Windows, c'était l'enfer... (ssh agent)
+====
+
+=== Kesako ? : présentation succincte de l'historique d'Antora
+
+[NOTE.speakers]
+====
+Un outil qui traite un vrai problème pour ceux qui font de l'asciidoc :
+
+ - SEO du site de documentation (public)
+ - Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)
+ - Gestion de liens entre les contenus
+====
+
+=== Les fonctionnalités du produit
+
+[NOTE.speakers]
+====
+Structure stricte :
+
+. L'aggrégaateur
+* Un descripteur
+* Des dépots
+* Une UI
+. Les dépots
+* un descripteur (!= de l'aggregateur)
+* des modules
+. Modules
+* des navigations
+* Les pages
+* Les assets
+* Les snippets de code (examples)
+. Une UI
+* Customisable
+* Handlebars
+
+====
+
+=== L'intégration dans nos projets
+
+[NOTE.speakers]
+====
+
+La documentation au plus près du code :
+
+- Chaque produit contient sa doc
+- Coustitution de dépot spécifique pour les pratiques communes
+- Les dépots annexes ont aussi leur documentation (infra as code, chatbot d'équipe)
+
+Mise en place des processus de dev sur la doc
+
+* Merge request / relecture / approbations
+* Déploiement continu
+* Partage des rendu potentiellement sous autentification
+** Frontal permettant l'accès total (gestion partielle trop complexe)
+** Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits
+====
+
+=== Les perspectives
+
+[NOTE.speakers]
+====
+
+Le projet vit !
+Sortie de la V2 en janvier avec meilleur gestion des accès aux dépots git
+
+Intégration d'un moteur de recherche
+- Algolia
+- Elasticsearch (fess)
+
+Aggérgéation de slidesdeck
+
+Gérer des UI / thèmes différents par dépots aggrégés
+
+====
+
+
+== Pour aller plus loin (5min)
+
+
+[NOTE.speakers]
+====
+
+On a parlé de la documentation "as word", allons un peu plus loin
+
+====
+
+
+=== Plant UML
+
+[NOTE.speakers]
+====
+
+Pour faire des diagrammes
+
+====
+
+=== Les slidesdeck
+
+[NOTE.speakers]
+====
+
+Intégration d'asciidoctor.js à reveallJS
+
+- Exemple
+Des initiatives : Deckonf.io
+
+Pas d'intégration avec Antora
+Gestion manuelle pour avoir un contenu aggrégé
+
+====
+
+=== Les blog
+
+[NOTE.speakers]
+====
+
+Hubpress
+
+====

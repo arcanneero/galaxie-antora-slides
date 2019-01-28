@@ -6,9 +6,11 @@ Syntaxes simplifiés
 
 [NOTE.speaker]
 ====
-Comme on peut retrouvé dans des wiki ou dans du markdown
+Nicolas
 
-Mais ca s'arrete là...
+Comme on peut retrouver dans des wikis ou dans du markdown
+
+Mais ca s'arrête là...
 ====
 
 == Oui, mais...
@@ -17,6 +19,7 @@ Là, on a une collection !
 
 [NOTE.speaker]
 ====
+Nicolas
 
 Enfonçons des portes ouvertes...
 
@@ -30,16 +33,22 @@ Enfonçons des portes ouvertes...
 
 [NOTE.speaker]
 ====
+Gautier et Nicolas
+
 Frustration des nouveaux arrivants
+
 - Besoin de "déranger" qq'un en permanance
 
 Difficultés de mises à jour
+
 - Processus de maj long et fastidieux (a décrire)
 - Outils trops différents des IDE
 
 Absence de partage de connaissances
+
 - Pas de relecture (hors contractuelle)
 - Personnnes rendues indispenables
 - Connaissances morcelées (!= outils)
 
+On a peut être une solution.
 ====

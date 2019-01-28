@@ -4,6 +4,8 @@ Petite histoire...
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Au détour d'un café, Gautier parle d'Antora
 (Décembre 2017- L'alpha n'est pas sortie)
 
@@ -17,6 +19,8 @@ Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
 [NOTE.speaker]
 ====
+Gautier ou Nicolas ?
+
 Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
  - SEO du site de documentation (public)
  - Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)
@@ -33,6 +37,8 @@ Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciido
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Structure stricte
 ====
 
@@ -43,18 +49,36 @@ Structure stricte
 
 [NOTE.speaker]
 ====
+Nicolas
+====
+
+== Le descripteur
+
+[source,yaml]
+----
+name: component-a 
+title: Component A 
+version: '1.0' 
+start_page: module:filename.adoc 
+nav: 
+- modules/ROOT/nav.adoc
+- modules/module-three/nav.adoc
+- ...
+----
+
+[NOTE.speaker]
+====
 
 ====
 
 == Les modules
 
-- Une navigation - nav.adoc
-- Des pages
-- Des assets
-- Du code
+image::./images/root-dir.svg[Arboresence d'un module, 50%]
 
 [NOTE.speaker]
 ====
+Gautier
+
 `nav.adoc` par convention.
 Permet de construire le menu
 
@@ -67,6 +91,8 @@ Utilise Handlbars
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Partie sans aucun doute la plus velue.
 
 Customizable moyennant quelques compétances Front-End
@@ -75,14 +101,28 @@ Customizable moyennant quelques compétances Front-End
 [state=v_background min_js]
 == Regardons un projet...
 
+[NOTE.speaker]
+====
+Gautier
+
+Demonstration Time
+====
+
 == L'intégration dans nos projets
+
+[NOTE.speaker]
+====
+Nicolas
+====
 
 == Avoir la doc au plus près du code du produit
 
 [NOTE.speaker]
 ====
+Nicolas
+
 - Chaque produit contient sa doc
-- Coustitution de dépot spécifique pour les pratiques communes
+- Constitution de dépot spécifique pour les pratiques communes
 - Les dépots annexes ont aussi leur documentation (infra as code, chatbot d'équipe)
 ====
 
@@ -90,6 +130,8 @@ Customizable moyennant quelques compétances Front-End
 
 [NOTE.speaker]
 ====
+Gautier
+
 * Merge request / relecture / approbations
 * Déploiement continu
 ====
@@ -101,6 +143,8 @@ Customizable moyennant quelques compétances Front-End
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Partage des rendu potentiellement sous autentification ::
 * Frontal permettant l'accès total (gestion partielle trop complexe)
 * Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits
@@ -112,12 +156,19 @@ Partage des rendu potentiellement sous autentification ::
 
 Version 2 publiée le 25 décembre 2018
 
+[NOTE.speaker]
+====
+Gautier
+====
+
 == Intégration d'un moteur de recherche
 
 Doit être intégré manuellement pour le moment
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Intégration d'un moteur de recherche
 - Algolia
 - Elasticsearch (fess)
@@ -126,12 +177,14 @@ Intégration d'un moteur de recherche
 == En vrac
 
 - Gestion d'un thème différents selon les compsants
-- Aggérgéation de slidesdeck
+- Aggrégation de slidesdeck
 - Amélioration de la cli
 
 [NOTE.speaker]
 ====
-. Actuellement, nous avons forcément un thème par playbook
+Nicolas
+
+. Actuellement, nous avons forcément un seul et unique thème par playbook
 . Besoin très personnel mais qui serait très différenciant !
 . Divers point :
 ** Générer un squelette de playbook

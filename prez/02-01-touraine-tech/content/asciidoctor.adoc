@@ -2,6 +2,8 @@
 
 [NOTE.speaker]
 ====
+Gautier
+
 Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier)
 ====
 
@@ -11,6 +13,8 @@ De nos constats...
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Volonté d'aller vers la doc as code.
 De rapprocher la doc du code (dans les dépots git)
 
@@ -27,6 +31,8 @@ Gestion dans un Git
 
 [NOTE.speaker]
 ====
+Gautier
+
 - Pas de problème de flavours (spec Asciidoc)
 - Insertion de fragment de fichier
 - Syntaxe plus cohérente
@@ -37,6 +43,8 @@ Gestion dans un Git
 
 [NOTE.speaker]
 ====
+Gautier
+
 La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 ====
 
@@ -44,6 +52,8 @@ La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 
 [NOTE.speaker]
 ====
+Nicolas
+
 En Ruby, mais
 
 Accessible à tous, grace à Gradle ou JS
@@ -66,8 +76,9 @@ buildscript {
 
 [NOTE.speaker]
 ====
+Nicolas
 
-Mise en place de build avec Graddle
+Mise en place de build avec Graddle :::
 - Syntaxe ulta simple
 - Génération de PDF
 ====
@@ -105,6 +116,8 @@ COPY build/docs/html5 /usr/share/nginx/html
 
 [NOTE.speaker]
 ====
+Gautier
+
 Déploiement Continue - Jenkins / Docker / NginX
 ====
 
@@ -114,6 +127,8 @@ Déploiement Continue - Jenkins / Docker / NginX
 
 [NOTE.speaker]
 ====
+Nicolas
+
 - Plusieurs projets sur un plateau
 - Pourquoi ne pas avoir une base commune ?
 - Ce sont finalement les mêmes questqion qu'avec une doc traditionnelle
@@ -132,9 +147,9 @@ TODO : Schéma (NGI)
 
 [NOTE.speaker]
 ====
+Nicolas
 
-Comment la problématique d'agrégation a été prise en compte
+Comment la problématique d'agrégation a été prise en compte :::
 - Dépot sous format zip des éléments générés
 - Mise en place d'aggrégarteur via Dockerfile (schémas)
-
 ====

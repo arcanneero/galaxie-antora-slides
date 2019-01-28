@@ -15,8 +15,10 @@ Janvier 2017 : Début de projet From scatch
 
 [NOTE.speaker]
 ====
+Nicolas
 
 Début d'un projet (01-17) from scratch en tant que lead dev en binome
+
  - Besoin de documenter ce qui est fait, mais peu de temps
  - Expérience passé en markdown, donc on fait quelques doc markdown, un peu de wiki
  - Doc contractuelle traditionnelle (suite bureautique)
@@ -31,29 +33,35 @@ Janvier 2018 : Récupération d'un projet historique
 
 [NOTE.speaker]
 ====
+Nicolas
+
 Nouveau projet (01-18) => mise en place de doc as code sans concessions
 ====
 
-== Une nécéssité devenue vitale
+== Une nécessité devenue vitale
 
 Déjà sensibilisé à la Doc As Code
 
 [NOTE.speaker]
 ====
+Gautier
+
 Blog hubpress (asiidotor sur github-pages) par un contributeur Asciidotor.js....
 
 Prise de note et slide deck.
 ====
 
-== Une nécéssité devenue vitale
+== Une nécessité devenue vitale
 
 Septembre 2017 : Arrivé sur un projet de moins d'un an
 
 [NOTE.speaker]
 ====
+Gautier
 
 Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
 Souhaite accéder à la documention :
+
  - Doc pas à jour
  - Absence de lead pendant un bon semestre
  - Doc dans des GED (format traditionnel)

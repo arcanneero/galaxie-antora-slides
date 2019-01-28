@@ -24,11 +24,11 @@ body {
 body:after {
     content: ' ';
     position: fixed;
-    bottom: 1em;
+    bottom: 3em;
     left: 1em;
     width: 10em;
     height: 10em;
-    background: url(images/onepoint_logo_white.png);
+    background: url(images/TNT.svg);
     background-size: 7em;
     background-repeat: no-repeat;
     background-position: 3% 100%;
@@ -41,7 +41,7 @@ body:before {
     width: 100%;
     bottom: 0;
     height: 1em;
-    background-color: #424242;
+    background-color: rgb(34, 35, 51);
     color: white;
     text-align: center;
     font-size: 0.9rem;
@@ -82,7 +82,7 @@ body:before {
 .reveal h5,
 .reveal h6 {
     margin: 0 0 20px 0;
-    color: rgb(0, 158, 220);
+    color: rgb(106, 191, 173);
     font-family: "Avenir LT Std 95 Black", sans-serif;
     font-weight: 600;
     line-height: 1.2;
@@ -354,7 +354,7 @@ body:before {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-    color: #2a76dd;
+    color: rgb(106, 191, 173);
 }
 
 /*********************************************
@@ -362,7 +362,7 @@ body:before {
  *********************************************/
 .reveal .progress {
     background: rgba(0, 0, 0, 0.2);
-    color: #2a76dd;
+    color: rgb(106, 191, 173);
 }
 
 .reveal .progress span {

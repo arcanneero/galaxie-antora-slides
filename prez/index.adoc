@@ -6,4 +6,4 @@
 :revealjs_history: true
 
 == !
-- link:./02-31-touraine-tech/index.html[Touraine Tech]
+- link:./02-01-touraine-tech/index.html[Touraine Tech]

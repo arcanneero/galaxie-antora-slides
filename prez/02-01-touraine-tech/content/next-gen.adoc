@@ -1,3 +1,4 @@
+[state=h_background ciel]
 = Pour aller plus loin
 
 [NOTE.speaker]
@@ -6,6 +7,22 @@ On a parlé de la documentation "as word", allons un peu plus loin
 ====
 
 == Plant UML
+
+
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
+
+== !
+
+image::images/asciidoctor-diagram-classes.png[]
 
 [NOTE.speaker]
 ====
@@ -25,12 +42,21 @@ Pas d'intégration avec Antora
 Gestion manuelle pour avoir un contenu aggrégé
 ====
 
+== !
+
+image::images/revealjs.png[]
+
 == Les blogs
 
-Hubpress
+== !
+
+image::images/hubpress.jpg[]
 
 [NOTE.speaker]
 ====
 - N'est plus maintenu (avis aux amateurs !)
 - Repose sur l'API Github
 ====
+
+
+== Et bien d'autres...

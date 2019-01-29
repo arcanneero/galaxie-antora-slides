@@ -55,5 +55,5 @@ Besoin de "déranger" qq'un en permanence
 - Connaissances morcelées (!= outils)
 ====
 
-[state=v_background idee]
+[state=v_background ampoules]
 == Il y a peut être une solution

@@ -1,6 +1,8 @@
 [state=h_background clavier]
 = Asciidoc(tor)
 
+image::images/asciidoc.png[width=20%]
+
 [NOTE.speaker]
 ====
 [G]
@@ -21,7 +23,7 @@ De rapprocher la doc du code (dans les dépôts git)
 Deux vrai possibilité : Markdown vs Asciidoctor
 ====
 
-== Pourquoi cet outil ?
+== !
 
 Une faiblesse qui peut être une force
 
@@ -117,7 +119,14 @@ COPY build/docs/html5 /usr/share/nginx/html
 Déploiement Continue - Jenkins / Docker / NginX
 ====
 
-==  Mais nos dépôts deviennent bordéliques
+==  !
+
+image::images/sacdenoeuds.jpg[]
+
+[NOTE.speaker]
+====
+Mais nos dépôts deviennent bordéliques
+====
 
 [state=v_background neurone]
 ==  Une structuration partagée
@@ -133,14 +142,23 @@ Déploiement Continue - Jenkins / Docker / NginX
 
 ==  Une structuration partagée
 
+== !
+
+image::images/structure.png[width=80%]
+
+[NOTE.speaker]
+====
 * Démarrage - Quickstart
 * Environnements - Environements
 * Recommandation - Guidlines
 * Manuels - How to
+====
+
+== !
+
+image::images/structure-2.png[width=80%]
 
 == Et si on avait plusieurs dépôts ?
-
-TODO : Schéma (NGI)
 
 [NOTE.speaker]
 ====
@@ -150,3 +168,19 @@ Comment la problématique d'agrégation a été prise en compte :::
 - Dépot sous format zip des éléments générés
 - Mise en place d'aggrégarteur via Dockerfile (schémas)
 ====
+
+== !
+
+image::images/dockers.svg[width=80%]
+
+== !
+
+image::images/docker.svg[width=80%]
+
+== !
+
+image::images/pipeline.svg[]
+
+== !
+
+image::images/pipelines.svg[width=80%]

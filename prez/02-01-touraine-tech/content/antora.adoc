@@ -4,7 +4,7 @@ Petite histoire...
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Au détour d'un café, Gautier parle d'Antora
 (Décembre 2017- L'alpha n'est pas sortie)
@@ -19,7 +19,7 @@ Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
 [NOTE.speaker]
 ====
-Gautier ou Nicolas ?
+[G] ou [N] ?
 
 Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
  - SEO du site de documentation (public)
@@ -37,7 +37,7 @@ Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciido
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Structure stricte
 ====
@@ -49,7 +49,7 @@ Structure stricte
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 ====
 
 == Le descripteur
@@ -77,7 +77,7 @@ image::./images/root-dir.svg[Arboresence d'un module, 50%]
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 `nav.adoc` par convention.
 Permet de construire le menu
@@ -91,7 +91,7 @@ Utilise Handlbars
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Partie sans aucun doute la plus velue.
 
@@ -103,7 +103,7 @@ Customizable moyennant quelques compétances Front-End
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 Demonstration Time
 ====
@@ -112,14 +112,14 @@ Demonstration Time
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 ====
 
 == Avoir la doc au plus près du code du produit
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 - Chaque produit contient sa doc
 - Constitution de dépot spécifique pour les pratiques communes
@@ -130,7 +130,7 @@ Nicolas
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 * Merge request / relecture / approbations
 * Déploiement continu
@@ -143,7 +143,7 @@ Gautier
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Partage des rendu potentiellement sous autentification ::
 * Frontal permettant l'accès total (gestion partielle trop complexe)
@@ -158,7 +158,7 @@ Version 2 publiée le 25 décembre 2018
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 ====
 
 == Intégration d'un moteur de recherche
@@ -167,7 +167,7 @@ Doit être intégré manuellement pour le moment
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Intégration d'un moteur de recherche
 - Algolia
@@ -182,7 +182,7 @@ Intégration d'un moteur de recherche
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 . Actuellement, nous avons forcément un seul et unique thème par playbook
 . Besoin très personnel mais qui serait très différenciant !

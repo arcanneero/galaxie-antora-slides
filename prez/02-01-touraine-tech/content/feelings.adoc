@@ -1,5 +1,5 @@
 [state=h_background face_au_lac]
-= Feeling good... or not)
+= Feelings
 
 == Ca pourrait être pire...
 
@@ -14,7 +14,7 @@ Syntaxes simplifiés
 Mais ca s'arrête là...
 ====
 
-[state=v_background face_au_lac]
+[state=v_background ponton]
 == Oui, mais...
 
 [NOTE.speaker]
@@ -29,14 +29,17 @@ Enfonçons des portes ouvertes...
 
 [NOTE.speaker]
 ====
-[G] Besoin de "déranger" qq'un en permanance
+[G] 
 
+Besoin de "déranger" qq'un en permanence
 ====
 
 == Difficultés de mises à jour
 
 [NOTE.speaker]
 ====
+[G]
+
 - Processus de maj long et fastidieux (a décrire)
 - Outils trops différents des IDE
 ====
@@ -45,6 +48,8 @@ Enfonçons des portes ouvertes...
 
 [NOTE.speaker]
 ====
+[N]
+
 - Pas de relecture (hors contractuelle)
 - Personnnes rendues indispenables
 - Connaissances morcelées (!= outils)

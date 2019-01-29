@@ -3,8 +3,10 @@
 
 [NOTE.speaker]
 ====
-Gautier
-Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier)
+[G]
+Utilisé par des gros projets : hibernate / fedora
+
+Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier 2019)
 ====
 
 == Pourquoi cet outil ?
@@ -14,7 +16,7 @@ De nos constats...
 [NOTE.speaker]
 ====
 [N] Volonté d'aller vers la doc as code.
-De rapprocher la doc du code (dans les dépots git)
+De rapprocher la doc du code (dans les dépôts git)
 
 Deux vrai possibilité : Markdown vs Asciidoctor
 ====
@@ -23,13 +25,11 @@ Deux vrai possibilité : Markdown vs Asciidoctor
 
 Une faiblesse qui peut être une force
 
-Quelques simplicité syntaxiques
-
-Gestion dans un Git
-
 [NOTE.speaker]
 ====
-Gautier ::
+[G] ::
+- Quelques simplicité syntaxiques
+- Gestion dans un Git
 - Pas de problème de flavours (spec Asciidoc)
 - Insertion de fragment de fichier
 - Syntaxe plus cohérente
@@ -40,7 +40,7 @@ Gautier ::
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 ====
@@ -52,7 +52,7 @@ La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 ====
 [N] En Ruby, mais...
 
-Accessible à tous, grace à Gradle ou JS
+Accessible à tous, grace à JRuby ou JS (merci au transpiler http://opalrb.com/)
 ====
 
 ==  Build
@@ -72,7 +72,7 @@ buildscript {
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Mise en place de build avec Graddle :::
 - Syntaxe ulta simple
@@ -112,7 +112,7 @@ COPY build/docs/html5 /usr/share/nginx/html
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 Déploiement Continue - Jenkins / Docker / NginX
 ====
@@ -124,7 +124,7 @@ Déploiement Continue - Jenkins / Docker / NginX
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 - Plusieurs projets sur un plateau
 - Pourquoi ne pas avoir une base commune ?
@@ -144,7 +144,7 @@ TODO : Schéma (NGI)
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Comment la problématique d'agrégation a été prise en compte :::
 - Dépot sous format zip des éléments générés

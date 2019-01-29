@@ -9,15 +9,20 @@ Les contextes de nos aventuriers : mise en place du contexte initial avant le d�
 [state=v_background pepper]
 == Qui sommes nous ?
 
-Gautier et Nicolas 
+Nicolas : 🐦 @nicgiro
 
-== De l'utile ...
+[state=v_background storm_papa]
+== Qui sommes nous ?
+
+Gautier : 🐦 @darkjabberwock
+
+== De l'utile...
 
 Janvier 2017 : Début de projet "from scatch"
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Début d'un projet (01-17) from scratch en tant que lead dev en binome
 
@@ -30,37 +35,37 @@ Début d'un projet (01-17) from scratch en tant que lead dev en binome
 ====
 
 [transition=zoom, %notitle]
-== ... à l'indispensable
+== ...à l'indispensable
 
 Janvier 2018 : Récupération d'un projet historique
 
 [NOTE.speaker]
 ====
-Nicolas
+[N]
 
 Nouveau projet (01-18) => mise en place de doc as code sans concessions
 ====
 
-== Une nécessité ...
+== Une nécessité...
 
 Déjà sensibilisé à la Doc As Code
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
-Blog hubpress (asiidotor sur github-pages) par un contributeur Asciidotor.js....
+Blog hubpress (asciidoctor sur github-pages) par un contributeur Asciidoctor.js....
 
-Prise de note et slide deck.
+Prise de note et slide deck (asciidoctor-revealjs) en adoc.
 ====
 
-== ... devenue vitale
+== ...devenue vitale
 
 Septembre 2017 : Arrivé sur un projet de moins d'un an
 
 [NOTE.speaker]
 ====
-Gautier
+[G]
 
 Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
 Souhaite accéder à la documention :
@@ -68,10 +73,15 @@ Souhaite accéder à la documention :
  - Doc pas à jour
  - Absence de lead pendant un bon semestre
  - Doc dans des GED (format traditionnel)
- - Pas forcéments tout les droits (presta)
+ - Pas forcément tout les droits (presta)
 ====
 
 [state=v_background pont]
 == Ce qui nous lie
 
+
+[NOTE.speaker]
+====
 Un seul but : Le partage de connaissance.
+
+====

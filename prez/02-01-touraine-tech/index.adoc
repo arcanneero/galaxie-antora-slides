@@ -10,6 +10,8 @@
 [NOTE.speaker]
 ====
 [N] Bonjour !
+
+[G] Merci d'être venus nous voir pour ce numéro de claquettes.
 ====
 
 include::content/point-depart.adoc[leveloffset=+1]

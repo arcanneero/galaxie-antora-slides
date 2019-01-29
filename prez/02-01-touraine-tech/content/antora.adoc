@@ -98,7 +98,7 @@ Assets contient les images et autres ressources
 
 == !
 
-Utilise Handlbars
+Utilise handlebars
 
 Demande un peu d'immersion
 
@@ -188,16 +188,17 @@ Intégration d'un moteur de recherche
 - Elasticsearch (fess)
 ====
 
-== En vrac
+== Améliorations en vrac
 
+[NOTE.speaker]
+====
 Gestion d'un thème différents selon les compsants
 
 Aggrégation de slidesdeck
 
 Amélioration de la cli
 
-[NOTE.speaker]
-====
+
 [N]
 
 . Actuellement, nous avons forcément un seul et unique thème par playbook

@@ -5,6 +5,12 @@
 :revealjs_slideNumber: true
 :revealjs_history: true
 :customcss: /themes/tnt/styles.css
+//:title-slide-background-image: images/galaxy.jpg
+
+[NOTE.speaker]
+====
+[N] Bonjour !
+====
 
 include::content/point-depart.adoc[leveloffset=+1]
 

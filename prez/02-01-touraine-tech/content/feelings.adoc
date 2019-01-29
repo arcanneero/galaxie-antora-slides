@@ -1,54 +1,54 @@
-= Feeling (good... or not)
+[state=h_background face_au_lac]
+= Feeling good... or not)
 
 == Ca pourrait être pire...
+
+Peu de documents "bureautiques"
 
 Syntaxes simplifiés
 
 [NOTE.speaker]
 ====
-Nicolas
-
-Comme on peut retrouver dans des wikis ou dans du markdown
+[N] Comme on peut retrouver dans des wikis ou dans du markdown
 
 Mais ca s'arrête là...
 ====
 
+[state=v_background face_au_lac]
 == Oui, mais...
-
-Là, on a une collection !
 
 [NOTE.speaker]
 ====
-Nicolas
+[N] Là, on a une collection !
 
 Enfonçons des portes ouvertes...
 
 ====
 
-== Oui, mais...
-
-* Frustration
-* Difficultés de mises à jour
-* Absence de partage de connaissance
+== Frustration
 
 [NOTE.speaker]
 ====
-Gautier et Nicolas
+[G] Besoin de "déranger" qq'un en permanance
 
-Frustration des nouveaux arrivants
+====
 
-- Besoin de "déranger" qq'un en permanance
+== Difficultés de mises à jour
 
-Difficultés de mises à jour
-
+[NOTE.speaker]
+====
 - Processus de maj long et fastidieux (a décrire)
 - Outils trops différents des IDE
+====
 
-Absence de partage de connaissances
+== Absence de partage de connaissance
 
+[NOTE.speaker]
+====
 - Pas de relecture (hors contractuelle)
 - Personnnes rendues indispenables
 - Connaissances morcelées (!= outils)
-
-On a peut être une solution.
 ====
+
+[state=v_background idee]
+== On a peut être une solution.

@@ -1,3 +1,4 @@
+[state=h_background auto_stop]
 = Points de départ
 
 [NOTE.speaker]
@@ -5,13 +6,14 @@
 Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
 ====
 
+[state=v_background pepper]
 == Qui sommes nous ?
 
 Gautier et Nicolas 
 
-== De l'utile à l'indispensable
+== De l'utile ...
 
-Janvier 2017 : Début de projet From scatch
+Janvier 2017 : Début de projet "from scatch"
 
 [NOTE.speaker]
 ====
@@ -27,7 +29,8 @@ Début d'un projet (01-17) from scratch en tant que lead dev en binome
 
 ====
 
-== De l'utile à l'indispensable
+[transition=zoom, %notitle]
+== ... à l'indispensable
 
 Janvier 2018 : Récupération d'un projet historique
 
@@ -38,7 +41,7 @@ Nicolas
 Nouveau projet (01-18) => mise en place de doc as code sans concessions
 ====
 
-== Une nécessité devenue vitale
+== Une nécessité ...
 
 Déjà sensibilisé à la Doc As Code
 
@@ -51,7 +54,7 @@ Blog hubpress (asiidotor sur github-pages) par un contributeur Asciidotor.js....
 Prise de note et slide deck.
 ====
 
-== Une nécessité devenue vitale
+== ... devenue vitale
 
 Septembre 2017 : Arrivé sur un projet de moins d'un an
 
@@ -68,8 +71,7 @@ Souhaite accéder à la documention :
  - Pas forcéments tout les droits (presta)
 ====
 
+[state=v_background pont]
 == Ce qui nous lie
-
-=== Sensibilité à la doc
 
 Un seul but : Le partage de connaissance.

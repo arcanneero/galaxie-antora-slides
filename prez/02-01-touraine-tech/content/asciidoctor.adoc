@@ -1,9 +1,9 @@
+[state=h_background clavier]
 = Asciidoc(tor)
 
 [NOTE.speaker]
 ====
 Gautier
-
 Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier)
 ====
 
@@ -13,9 +13,7 @@ De nos constats...
 
 [NOTE.speaker]
 ====
-Nicolas
-
-Volonté d'aller vers la doc as code.
+[N] Volonté d'aller vers la doc as code.
 De rapprocher la doc du code (dans les dépots git)
 
 Deux vrai possibilité : Markdown vs Asciidoctor
@@ -31,8 +29,7 @@ Gestion dans un Git
 
 [NOTE.speaker]
 ====
-Gautier
-
+Gautier ::
 - Pas de problème de flavours (spec Asciidoc)
 - Insertion de fragment de fichier
 - Syntaxe plus cohérente
@@ -48,13 +45,12 @@ Gautier
 La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 ====
 
-==  Build
+[state=v_background nappes]
+==  Build & deploy
 
 [NOTE.speaker]
 ====
-Nicolas
-
-En Ruby, mais
+[N] En Ruby, mais...
 
 Accessible à tous, grace à Gradle ou JS
 ====
@@ -123,6 +119,7 @@ Déploiement Continue - Jenkins / Docker / NginX
 
 ==  Mais nos dépôts deviennent bordéliques
 
+[state=v_background neurone]
 ==  Une structuration partagée
 
 [NOTE.speaker]

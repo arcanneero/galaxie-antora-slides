@@ -1,6 +1,8 @@
+[state=h_background ponton]
 = Antora
+image::images/antora.png[width=20%]
 
-Petite histoire...
+🐦 @antoraproject
 
 [NOTE.speaker]
 ====
@@ -19,37 +21,43 @@ Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
 [NOTE.speaker]
 ====
-[G] ou [N] ?
+[G]
 
 Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
  - SEO du site de documentation (public)
  - Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)
  - Gestion de liens entre les contenus
+
+ Trnasition pour les fonctionnalités du produit !
 ====
 
-== Les fonctionnalités du produit
-
+[state=v_background carte_mere]
 == L'aggrégateur ou playbook
+
+== !
+
+image::images/playbook.svg[width=60%]
+
+[NOTE.speaker]
+====
+[N]
 
 - Un descripteur - playbook
 - Des dépots - git
 - Un thème - ui
 
-[NOTE.speaker]
-====
-[N]
-
-Structure stricte
 ====
 
 == Les dépots
 
-- Un descripteur - antora.yml
-- Des modules
+image::images/descripteur.svg[width=60%]
 
 [NOTE.speaker]
 ====
 [N]
+
+- Un descripteur - antora.yml
+- Des modules
 ====
 
 == Le descripteur
@@ -85,9 +93,14 @@ Permet de construire le menu
 Assets contient les images et autres ressources
 ====
 
+[state=v_background siege_paris_1]
 == La UI
 
+== !
+
 Utilise Handlbars
+
+Demande un peu d'immersion
 
 [NOTE.speaker]
 ====
@@ -108,6 +121,7 @@ Customizable moyennant quelques compétances Front-End
 Demonstration Time
 ====
 
+[state=v_background simple]
 == L'intégration dans nos projets
 
 [NOTE.speaker]
@@ -138,8 +152,7 @@ Demonstration Time
 
 == Sécurisation des accès
 
-- Frontal d'accès
-- Gestion de plusieurs déploiements
+image::./images/antora-pipeline.svg[80%]
 
 [NOTE.speaker]
 ====
@@ -150,6 +163,7 @@ Partage des rendu potentiellement sous autentification ::
 * Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits
 ====
 
+[state=v_background wall_e]
 == Les perspectives et limitations
 
 == Projet vivant
@@ -176,9 +190,11 @@ Intégration d'un moteur de recherche
 
 == En vrac
 
-- Gestion d'un thème différents selon les compsants
-- Aggrégation de slidesdeck
-- Amélioration de la cli
+Gestion d'un thème différents selon les compsants
+
+Aggrégation de slidesdeck
+
+Amélioration de la cli
 
 [NOTE.speaker]
 ====

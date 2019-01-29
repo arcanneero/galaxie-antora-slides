@@ -3,6 +3,8 @@
 
 image::images/asciidoc.png[width=20%]
 
+🐦 @asciidoctor
+
 [NOTE.speaker]
 ====
 [G]
@@ -119,7 +121,7 @@ COPY build/docs/html5 /usr/share/nginx/html
 Déploiement Continue - Jenkins / Docker / NginX
 ====
 
-==  !
+==  Mais nos dépôts deviennent bordéliques
 
 image::images/sacdenoeuds.jpg[]
 
@@ -140,8 +142,6 @@ Mais nos dépôts deviennent bordéliques
 - Ce sont finalement les mêmes questqion qu'avec une doc traditionnelle
 ====
 
-==  Une structuration partagée
-
 == !
 
 image::images/structure.png[width=80%]
@@ -152,6 +152,9 @@ image::images/structure.png[width=80%]
 * Environnements - Environements
 * Recommandation - Guidlines
 * Manuels - How to
+
+Mais c'est une doc orienté produit.
+Il y a d'autre besoins dans la vie d'un projet.
 ====
 
 == !

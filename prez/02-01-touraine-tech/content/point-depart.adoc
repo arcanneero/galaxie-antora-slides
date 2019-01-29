@@ -77,11 +77,16 @@ Souhaite accéder à la documention :
 ====
 
 [state=v_background pont]
-== Ce qui nous lie
+== Le partage de connaissance
 
 
 [NOTE.speaker]
 ====
-Un seul but : Le partage de connaissance.
+
+Ce qui nous lie
+
+Une sensibilité à la doc
+
+Un seul but : Le partage de connaissance
 
 ====

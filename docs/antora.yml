@@ -1,0 +1,5 @@
+name: galaxie-antora-slides
+title: Les slides
+version: '1.0' 
+nav: 
+- modules/ROOT/nav.adoc

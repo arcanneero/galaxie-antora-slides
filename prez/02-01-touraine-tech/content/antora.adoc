@@ -10,11 +10,29 @@ image::images/antora.png[width=20%]
 
 Au détour d'un café, Gautier parle d'Antora
 (Décembre 2017- L'alpha n'est pas sortie)
+====
+
+== !
+image::images/too-busy-to-innovate.png[60%]
+
+[NOTE.speaker]
+====
+[N]
 
 Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
 - Structure très stricte (trop ?) - Convention over configuration
 - Et sous Windows, c'était l'enfer... (ssh agent)
+====
+
+== Antora
+
+image::images/antora.png[width=20%]
+
+🐦 @antoraproject
+
+[NOTE.speaker]
+====
 
 [G]
 
@@ -76,7 +94,7 @@ nav:
 
 == Les modules
 
-image::./images/root-dir.svg[Arboresence d'un module, 50%]
+image::./images/arbo-module.png[Arboresence d'un module,40%]
 
 [NOTE.speaker]
 ====

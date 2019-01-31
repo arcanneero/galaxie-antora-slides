@@ -159,6 +159,7 @@ image::images/structure-2.png[width=80%]
 Comment la problématique d'agrégation a été prise en compte :::
 - Dépot sous format zip des éléments générés
 - Mise en place d'aggrégarteur via Dockerfile (schémas)
+- gestion des liens entre repos
 ====
 
 == !

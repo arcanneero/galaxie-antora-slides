@@ -15,12 +15,7 @@ Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
 - Structure très stricte (trop ?) - Convention over configuration
 - Et sous Windows, c'était l'enfer... (ssh agent)
-====
 
-== Kesako ?
-
-[NOTE.speaker]
-====
 [G]
 
 Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
@@ -28,7 +23,7 @@ Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciido
  - Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)
  - Gestion de liens entre les contenus
 
- Trnasition pour les fonctionnalités du produit !
+ Transition pour les fonctionnalités du produit !
 ====
 
 [state=v_background carte_mere]
@@ -94,13 +89,10 @@ Assets contient les images et autres ressources
 ====
 
 [state=v_background siege_paris_1]
-== La UI
+== UI
 
 == !
 
-Utilise handlebars
-
-Demande un peu d'immersion
 
 [NOTE.speaker]
 ====
@@ -109,6 +101,9 @@ Demande un peu d'immersion
 Partie sans aucun doute la plus velue.
 
 Customizable moyennant quelques compétances Front-End
+
+https://docs.couchbase.com/home/index.html
+
 ====
 
 [state=v_background min_js]
@@ -186,6 +181,14 @@ Doit être intégré manuellement pour le moment
 Intégration d'un moteur de recherche
 - Algolia
 - Elasticsearch (fess)
+====
+
+== Multi-langues
+
+[NOTE.speaker]
+====
+[G]
+
 ====
 
 == Améliorations en vrac

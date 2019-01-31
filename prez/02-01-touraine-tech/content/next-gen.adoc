@@ -48,9 +48,11 @@ image::images/revealjs.png[]
 
 == Les blogs
 
-== !
+== HubPressIO
 
 image::images/hubpress.jpg[]
+
+https://hubpress.github.io
 
 [NOTE.speaker]
 ====

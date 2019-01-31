@@ -12,6 +12,8 @@
 [N] Bonjour !
 
 [G] Merci d'être venus nous voir pour ce numéro de claquettes.
+
+C'est un REx : on va vous présenter notre cheminement dans la doc as code.
 ====
 
 include::content/point-depart.adoc[leveloffset=+1]
@@ -25,10 +27,7 @@ include::content/antora.adoc[leveloffset=+1]
 include::content/next-gen.adoc[leveloffset=+1]
 
 [state=h_background idee]
-== Et n'oubliez pas...
-
-La doc c'est comme le PQ, +
-ca sert à se démerder tout seul !
+== Avez-vous des questions ?
 
 === Références
 

@@ -5,7 +5,7 @@
 
 Peu de documents "bureautiques"
 
-Syntaxes simplifiés
+Syntaxes simplifiées
 
 [NOTE.speaker]
 ====

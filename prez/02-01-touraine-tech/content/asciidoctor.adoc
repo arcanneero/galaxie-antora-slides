@@ -23,6 +23,10 @@ De nos constats...
 De rapprocher la doc du code (dans les dépôts git)
 
 Deux vrai possibilité : Markdown vs Asciidoctor
+
+Définir les deux :::
+- balisage faible
+- proche d'un format wiki
 ====
 
 == !
@@ -59,31 +63,7 @@ La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 Accessible à tous, grace à JRuby ou JS (merci au transpiler http://opalrb.com/)
 ====
 
-==  Build
-
-```groovy
-buildscript {
-    repositories {
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
-        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.15'
-    }
-}
-```
-
-[NOTE.speaker]
-====
-[N]
-
-Mise en place de build avec Graddle :::
-- Syntaxe ulta simple
-- Génération de PDF
-====
-
-==  Build
+==  Gradle
 
 ```groovy
 
@@ -104,9 +84,16 @@ asciidoctor {
 }
 ```
 
-==  Deploy
+[NOTE.speaker]
+====
+[N]
 
-Le Dockerfile le plus compliqué du monde
+Mise en place de build avec Graddle :::
+- Syntaxe ulta simple
+- Génération de PDF
+====
+
+==  Dockerfile
 
 ```
 FROM nginx
@@ -127,7 +114,9 @@ image::images/sacdenoeuds.jpg[]
 
 [NOTE.speaker]
 ====
-Mais nos dépôts deviennent bordéliques
+Mais nos dépôts deviennent bordéliques. 
+
+=> Expliquer pourquoi c'est devenu bordélique.
 ====
 
 [state=v_background neurone]
@@ -149,15 +138,15 @@ image::images/structure.png[width=80%]
 [NOTE.speaker]
 ====
 * Démarrage - Quickstart
-* Environnements - Environements
-* Recommandation - Guidlines
+* Environnements - Environments
+* Recommandations - Guidelines
 * Manuels - How to
 
 Mais c'est une doc orienté produit.
 Il y a d'autre besoins dans la vie d'un projet.
 ====
 
-== !
+=B!
 
 image::images/structure-2.png[width=80%]
 

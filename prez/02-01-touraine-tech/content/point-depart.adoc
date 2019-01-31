@@ -65,7 +65,7 @@ Septembre 2017 : Arrivé sur un projet de moins d'un an
 
 [NOTE.speaker]
 ====
-[G]
+[G] Bien appuyer sur le fait que le projet c'est le même.
 
 Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
 Souhaite accéder à la documention :

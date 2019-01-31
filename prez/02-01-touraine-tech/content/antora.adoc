@@ -36,7 +36,7 @@ Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciido
 
 == !
 
-image::images/playbook.svg[width=60%]
+image::images/playbook.png[width=60%]
 
 [NOTE.speaker]
 ====
@@ -50,7 +50,7 @@ image::images/playbook.svg[width=60%]
 
 == Les dépots
 
-image::images/descripteur.svg[width=60%]
+image::images/descripteur.png[width=60%]
 
 [NOTE.speaker]
 ====
@@ -152,7 +152,7 @@ Demonstration Time
 
 == Sécurisation des accès
 
-image::./images/antora-pipeline.svg[80%]
+image::./images/antora-pipeline.png[80%]
 
 [NOTE.speaker]
 ====

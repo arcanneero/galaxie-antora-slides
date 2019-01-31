@@ -163,16 +163,16 @@ Comment la problématique d'agrégation a été prise en compte :::
 
 == !
 
-image::images/dockers.svg[width=80%]
+image::images/dockers.png[width=80%]
 
 == !
 
-image::images/docker.svg[width=80%]
+image::images/docker.png[width=80%]
 
 == !
 
-image::images/pipeline.svg[]
+image::images/pipeline.png[]
 
 == !
 
-image::images/pipelines.svg[width=80%]
+image::images/pipelines.png[width=80%]

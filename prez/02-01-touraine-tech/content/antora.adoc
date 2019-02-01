@@ -109,9 +109,6 @@ Assets contient les images et autres ressources
 [state=v_background siege_paris_1]
 == UI
 
-== !
-
-
 [NOTE.speaker]
 ====
 [N]
@@ -123,6 +120,24 @@ Customizable moyennant quelques compétances Front-End
 https://docs.couchbase.com/home/index.html
 
 ====
+
+== handlebars.js
+
+[source, html]
+----
+{{#if page.versions}}
+<div class="page-versions">
+  <button class="versions-menu-toggle" title="Show other versions of page">{{page.componentVersion.displayVersion}}</button>
+  <div class="versions-menu">
+    {{#each page.versions}}
+    <a class="version
+      {{~#if (eq ./version @root.page.version)}} is-current{{/if~}}
+      {{~#if ./missing}} is-missing{{/if}}" href="{{{relativize @root.page.url ./url}}}">{{./displayVersion}}</a>
+    {{/each}}
+  </div>
+</div>
+{{/if}}
+----
 
 [state=v_background min_js]
 == Regardons un projet...
@@ -206,6 +221,11 @@ Intégration d'un moteur de recherche
 [NOTE.speaker]
 ====
 [G]
+
+Il existe plusieurs façon de gérer la langue :::
+* inclusions multiples d'un composants en pointant sur un dossier différents par langue
+* dans l'arborescence des modules prévoir une sous-arboresence par langue dès le départ
+** nécessite des adaptations de la UI pour gérer les navigations
 
 ====
 

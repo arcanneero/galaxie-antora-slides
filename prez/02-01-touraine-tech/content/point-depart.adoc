@@ -4,6 +4,10 @@
 [NOTE.speaker]
 ====
 Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
+
+La documentation projet pour nous c'est : 
+
+* Tout élément complémentaire au code qui permet de comprendre techniquement et / ou fonctionnellement un élément du produit. 
 ====
 
 [state=v_background pepper]
@@ -11,14 +15,27 @@ Les contextes de nos aventuriers : mise en place du contexte initial avant le d�
 
 Nicolas : 🐦 @nicgiro
 
+[NOTE.speaker]
+====
+* Lead dev chez OnePoint
+* Couteau suisse français de l'informatique
+====
+
 [state=v_background storm_papa]
 == Qui sommes nous ?
 
 Gautier : 🐦 @darkjabberwock
 
+[NOTE.speaker]
+====
+* Freelance
+* JUG Leader
+* Contributeur opensource
+====
+
 == De l'utile...
 
-Janvier 2017 : Début de projet "from scatch"
+Janvier 2017 : Début de projet "from scratch"
 
 [NOTE.speaker]
 ====

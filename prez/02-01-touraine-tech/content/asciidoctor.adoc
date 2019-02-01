@@ -15,7 +15,6 @@ Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier 2019)
 
 == Pourquoi cet outil ?
 
-De nos constats...
 
 [NOTE.speaker]
 ====
@@ -27,15 +26,31 @@ Deux vrai possibilité : Markdown vs Asciidoctor
 Définir les deux :::
 - balisage faible
 - proche d'un format wiki
+
 ====
 
-== !
+== Exemple de syntaxe
 
-Une faiblesse qui peut être une force
+[source,adoc]
+----
+= Un titre
+== Un sous-titre
+
+[WARNING]
+--
+Un warning multi-lignes
+
+* item 1
+* item 2
+--
+
+----
 
 [NOTE.speaker]
 ====
-[G] ::
+
+[G] 
+
 - Quelques simplicité syntaxiques
 - Gestion dans un Git
 - Pas de problème de flavours (spec Asciidoc)
@@ -129,6 +144,8 @@ Mais nos dépôts deviennent bordéliques.
 - Plusieurs projets sur un plateau
 - Pourquoi ne pas avoir une base commune ?
 - Ce sont finalement les mêmes questqion qu'avec une doc traditionnelle
+
+Convention over configuration
 ====
 
 == !
@@ -164,16 +181,16 @@ Comment la problématique d'agrégation a été prise en compte :::
 
 == !
 
-image::images/dockers.png[width=80%]
+image::images/dockers.svg[width=80%]
 
 == !
 
-image::images/docker.png[width=80%]
+image::images/docker.svg[width=80%]
 
 == !
 
-image::images/pipeline.png[]
+image::images/pipeline.svg[]
 
 == !
 
-image::images/pipelines.png[width=80%]
+image::images/pipelines.svg[width=80%]

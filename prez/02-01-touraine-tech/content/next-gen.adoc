@@ -3,11 +3,10 @@
 
 [NOTE.speaker]
 ====
-On a parlé de la documentation "as word", allons un peu plus loin
+On a parlé de la documentation "as Word", allons un peu plus loin
 ====
 
 == Plant UML
-
 
 ....
 class BlockProcessor

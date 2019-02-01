@@ -3,13 +3,12 @@
 
 == Ca pourrait être pire...
 
-Peu de documents "bureautiques"
-
-Syntaxes simplifiées
-
 [NOTE.speaker]
 ====
-[N] Comme on peut retrouver dans des wikis ou dans du markdown
+[N]
+Peu de documents "bureautiques"
+
+Syntaxes simplifiées comme on peut retrouver dans des wikis ou dans du markdown
 
 Mais ca s'arrête là...
 ====
@@ -50,8 +49,8 @@ Besoin de "déranger" qq'un en permanence
 ====
 [N]
 
-- Pas de relecture (hors contractuelle)
-- Personnnes rendues indispenables
+- Pas de relecture (hors contractuelle)eeE
+- Personnnes rendues indispensables
 - Connaissances morcelées (!= outils)
 ====
 

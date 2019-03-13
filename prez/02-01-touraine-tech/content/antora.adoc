@@ -149,6 +149,16 @@ https://docs.couchbase.com/home/index.html
 Demonstration Time
 ====
 
+== Les liens
+
+[source, adoc]
+----
+* xref:index.adoc[In-module page]
+* xref:other-module:page.adoc[Page in the same component, but a different module]
+*** xref:other-module:page.adoc#fragment[A deep link to a page in the same component, but a different module]
+*** xref:other-component:module:page.adoc[Page in another component]
+----
+
 [state=v_background simple]
 == L'intégration dans nos projets
 
@@ -190,6 +200,10 @@ Partage des rendu potentiellement sous autentification ::
 * Frontal permettant l'accès total (gestion partielle trop complexe)
 * Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits
 ====
+
+== Pipeline
+
+image::./images/pipelines.png[80%]
 
 [state=v_background wall_e]
 == Les perspectives et limitations

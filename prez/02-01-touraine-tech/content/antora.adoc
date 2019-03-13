@@ -6,7 +6,7 @@ image::images/antora.png[width=20%]
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Au détour d'un café, Gautier parle d'Antora
 (Décembre 2017- L'alpha n'est pas sortie)
@@ -17,7 +17,7 @@ image::images/too-busy-to-innovate.png[60%]
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Premiers tests autour de mars 2018 - Très mauvais premères impressions
 
@@ -34,7 +34,7 @@ image::images/antora.png[width=20%]
 [NOTE.speaker]
 ====
 
-[G]
+(G)
 
 Un outil qui traite de vrais problèmes qui se posent quand on fait de l'asciidoc :::
  - SEO du site de documentation (public)
@@ -53,7 +53,7 @@ image::images/playbook.png[width=60%]
 
 [NOTE.speaker]
 ====
-[N]
+(G)
 
 - Un descripteur - playbook
 - Des dépots - git
@@ -67,29 +67,10 @@ image::images/descripteur.png[width=60%]
 
 [NOTE.speaker]
 ====
-[N]
+(G)
 
 - Un descripteur - antora.yml
 - Des modules
-====
-
-== Le descripteur
-
-[source,yaml]
-----
-name: component-a 
-title: Component A 
-version: '1.0' 
-start_page: module:filename.adoc 
-nav: 
-- modules/ROOT/nav.adoc
-- modules/module-three/nav.adoc
-- ...
-----
-
-[NOTE.speaker]
-====
-
 ====
 
 == Les modules
@@ -98,7 +79,7 @@ image::./images/arbo-module.png[Arboresence d'un module,40%]
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 
 `nav.adoc` par convention.
 Permet de construire le menu
@@ -111,7 +92,7 @@ Assets contient les images et autres ressources
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Partie sans aucun doute la plus velue.
 
@@ -139,17 +120,29 @@ https://docs.couchbase.com/home/index.html
 {{/if}}
 ----
 
+== !
+
+image::./images/antora-docs.png[Default UI,100%]
+
+link:https://docs.antora.org/antora/2.0[Antora]
+
+== !
+
+image::./images/couchbase.png[Couchbase UI,90%]
+
+link:https://docs.couchbase.com/server/6.0/introduction/intro.html[Couchbase]
+
 [state=v_background min_js]
 == Regardons un projet...
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 
 Demonstration Time
 ====
 
-== Les liens
+== Focus sur les liens
 
 [source, adoc]
 ----
@@ -159,19 +152,24 @@ Demonstration Time
 *** xref:other-component:module:page.adoc[Page in another component]
 ----
 
+[NOTE.speaker]
+====
+(G)
+====
+
 [state=v_background simple]
 == L'intégration dans nos projets
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 ====
 
 == Avoir la doc au plus près du code du produit
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 - Chaque produit contient sa doc
 - Constitution de dépot spécifique pour les pratiques communes
@@ -182,7 +180,7 @@ Demonstration Time
 
 [NOTE.speaker]
 ====
-[G]
+(N)
 
 * Merge request / relecture / approbations
 * Déploiement continu
@@ -194,7 +192,7 @@ image::./images/antora-pipeline.png[80%]
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Partage des rendu potentiellement sous autentification ::
 * Frontal permettant l'accès total (gestion partielle trop complexe)
@@ -205,6 +203,12 @@ Partage des rendu potentiellement sous autentification ::
 
 image::./images/pipelines.png[80%]
 
+[NOTE.speaker]
+====
+(N)
+====
+
+
 [state=v_background wall_e]
 == Les perspectives et limitations
 
@@ -214,7 +218,7 @@ Version 2 publiée le 25 décembre 2018
 
 [NOTE.speaker]
 ====
-[G]
+(N)
 ====
 
 == Intégration d'un moteur de recherche
@@ -223,7 +227,7 @@ Doit être intégré manuellement pour le moment
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Intégration d'un moteur de recherche
 - Algolia
@@ -234,7 +238,7 @@ Intégration d'un moteur de recherche
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 
 Il existe plusieurs façon de gérer la langue :::
 * inclusions multiples d'un composants en pointant sur un dossier différents par langue
@@ -254,7 +258,7 @@ Aggrégation de slidesdeck
 Amélioration de la cli
 
 
-[N]
+(G)
 
 . Actuellement, nous avons forcément un seul et unique thème par playbook
 . Besoin très personnel mais qui serait très différenciant !

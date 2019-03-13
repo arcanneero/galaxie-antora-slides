@@ -3,6 +3,7 @@
 
 [NOTE.speaker]
 ====
+(G)
 On a parlé de la documentation "as Word", allons un peu plus loin
 ====
 
@@ -19,12 +20,18 @@ DiagramBlock <|-- DitaaBlock
 DiagramBlock <|-- PlantUmlBlock
 ....
 
+[NOTE.speaker]
+====
+(G)
+====
+
 == !
 
 image::images/asciidoctor-diagram-classes.png[]
 
 [NOTE.speaker]
 ====
+(G)
 Pour faire des diagrammes
 ====
 
@@ -34,30 +41,13 @@ RevealJS / Deckonf.io
 
 [NOTE.speaker]
 ====
+(G)
+
 Intégration d'asciidoctor.js à reveallJS
 ou des initiatives : Deckonf.io
 
 Pas d'intégration avec Antora
 Gestion manuelle pour avoir un contenu aggrégé
 ====
-
-== !
-
-image::images/revealjs.png[]
-
-== Les blogs
-
-== HubPressIO
-
-image::images/hubpress.jpg[]
-
-https://hubpress.github.io
-
-[NOTE.speaker]
-====
-- N'est plus maintenu (avis aux amateurs !)
-- Repose sur l'API Github
-====
-
 
 == Et bien d'autres...

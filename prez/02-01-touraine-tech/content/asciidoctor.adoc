@@ -1,5 +1,5 @@
 [state=h_background clavier]
-= Asciidoc(tor)
+= Asciidoctor
 
 image::images/asciidoc.png[width=20%]
 
@@ -7,7 +7,7 @@ image::images/asciidoc.png[width=20%]
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 Utilisé par des gros projets : hibernate / fedora
 
 Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier 2019)
@@ -18,7 +18,7 @@ Spec Asciidoc : Vient d'intégrer la fondation Eclipse (7 Janvier 2019)
 
 [NOTE.speaker]
 ====
-[N] Volonté d'aller vers la doc as code.
+(G) Volonté d'aller vers la doc as code.
 De rapprocher la doc du code (dans les dépôts git)
 
 Deux vrai possibilité : Markdown vs Asciidoctor
@@ -49,7 +49,7 @@ Un warning multi-lignes
 [NOTE.speaker]
 ====
 
-[G] 
+(G) 
 
 - Quelques simplicité syntaxiques
 - Gestion dans un Git
@@ -63,7 +63,7 @@ Un warning multi-lignes
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 
 La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 ====
@@ -73,7 +73,7 @@ La doc as code, ca pose quand même des problèmes qu'on a pas autrement...
 
 [NOTE.speaker]
 ====
-[N] En Ruby, mais...
+(N) En Ruby, mais...
 
 Accessible à tous, grace à JRuby ou JS (merci au transpiler http://opalrb.com/)
 ====
@@ -101,10 +101,10 @@ asciidoctor {
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Mise en place de build avec Graddle :::
-- Syntaxe ulta simple
+- Syntaxe ultra simple
 - Génération de PDF
 ====
 
@@ -118,7 +118,7 @@ COPY build/docs/html5 /usr/share/nginx/html
 
 [NOTE.speaker]
 ====
-[G]
+(N)
 
 Déploiement Continue - Jenkins / Docker / NginX
 ====
@@ -129,9 +129,12 @@ image::images/sacdenoeuds.jpg[]
 
 [NOTE.speaker]
 ====
+(N)
 Mais nos dépôts deviennent bordéliques. 
 
 => Expliquer pourquoi c'est devenu bordélique.
+
+=> Divers = Boite à merde
 ====
 
 [state=v_background neurone]
@@ -139,11 +142,11 @@ Mais nos dépôts deviennent bordéliques.
 
 [NOTE.speaker]
 ====
-[N]
+(G)
 
 - Plusieurs projets sur un plateau
 - Pourquoi ne pas avoir une base commune ?
-- Ce sont finalement les mêmes questqion qu'avec une doc traditionnelle
+- Ce sont finalement les mêmes questions qu'avec une doc traditionnelle
 
 Convention over configuration
 ====
@@ -154,24 +157,34 @@ image::images/structure.png[width=80%]
 
 [NOTE.speaker]
 ====
+(G)
+
 * Démarrage - Quickstart
 * Environnements - Environments
-* Recommandations - Guidelines
+* Recommendations - Guidelines
 * Manuels - How to
 
 Mais c'est une doc orienté produit.
 Il y a d'autre besoins dans la vie d'un projet.
 ====
 
-=B!
+== !
 
 image::images/structure-2.png[width=80%]
+[NOTE.speaker]
+====
+(G)
+
+Nouveaux besoin =>  Ajout de domain organisationnel / suivi de projet
+
+OK si != de divers !
+====
 
 == Et si on avait plusieurs dépôts ?
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Comment la problématique d'agrégation a été prise en compte :::
 - Dépot sous format zip des éléments générés
@@ -194,3 +207,11 @@ image::images/pipeline.svg[]
 == !
 
 image::images/pipelines.svg[width=80%]
+
+
+[NOTE.speaker]
+====
+(N)
+
+C'est clairement complexe et difficile à maintenir
+====

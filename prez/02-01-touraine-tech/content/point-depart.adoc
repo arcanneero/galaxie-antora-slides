@@ -3,7 +3,7 @@
 
 [NOTE.speaker]
 ====
-Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
+(G) Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
 
 La documentation projet pour nous c'est : 
 
@@ -17,20 +17,24 @@ Nicolas : 🐦 @nicgiro
 
 [NOTE.speaker]
 ====
-* Lead dev chez OnePoint
-* Couteau suisse français de l'informatique
+(G)
+
+* Lead Tech à Onepoint
+* Couteau suisse français de l'informatque
 ====
+
 
 [state=v_background storm_papa]
 == Qui sommes nous ?
 
 Gautier : 🐦 @darkjabberwock
-
 [NOTE.speaker]
 ====
+(N)
+
 * Freelance
-* JUG Leader
-* Contributeur opensource
+* Jug Leader
+* Opensource addict
 ====
 
 == De l'utile...
@@ -39,7 +43,7 @@ Janvier 2017 : Début de projet "from scratch"
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Début d'un projet (01-17) from scratch en tant que lead dev en binome
 
@@ -58,7 +62,7 @@ Janvier 2018 : Récupération d'un projet historique
 
 [NOTE.speaker]
 ====
-[N]
+(N)
 
 Nouveau projet (01-18) => mise en place de doc as code sans concessions
 ====
@@ -69,7 +73,7 @@ Déjà sensibilisé à la Doc As Code
 
 [NOTE.speaker]
 ====
-[G]
+(G)
 
 Blog hubpress (asciidoctor sur github-pages) par un contributeur Asciidoctor.js....
 
@@ -82,7 +86,7 @@ Septembre 2017 : Arrivé sur un projet de moins d'un an
 
 [NOTE.speaker]
 ====
-[G] Bien appuyer sur le fait que le projet c'est le même.
+(G) Bien appuyer sur le fait que le projet c'est le même.
 
 Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
 Souhaite accéder à la documention :
@@ -99,11 +103,10 @@ Souhaite accéder à la documention :
 
 [NOTE.speaker]
 ====
+(G)
 
-Ce qui nous lie
-
-Une sensibilité à la doc
-
-Un seul but : Le partage de connaissance
+Ce qui nous lie ::
+* Une sensibilité à la doc
+* Un seul but : Le partage de connaissance
 
 ====

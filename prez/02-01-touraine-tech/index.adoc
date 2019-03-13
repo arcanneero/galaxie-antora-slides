@@ -11,8 +11,7 @@
 ====
 [N] Bonjour !
 
-[G] Merci d'être venus nous voir pour ce numéro de claquettes.
-
+[G] Merci d'être venus nous voir.
 C'est un REx : on va vous présenter notre cheminement dans la doc as code.
 ====
 
@@ -36,6 +35,3 @@ include::content/next-gen.adoc[leveloffset=+1]
 @antoraproject - https://antora.org/
 
 @revealjs - https://revealjs.com/#/
-
-@HubPressIO - https://github.com/HubPress/hubpress.io
-

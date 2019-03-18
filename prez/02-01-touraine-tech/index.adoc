@@ -4,7 +4,8 @@
 :revealjs_progress: true
 :revealjs_slideNumber: true
 :revealjs_history: true
-:customcss: /themes/nts-dev-ops/styles.css
+:customcss: /themes/breizhcamp/styles.css
+:highlightjs-theme: /themes/highlight-styles/vs-bttf.css
 //:title-slide-background-image: images/galaxy.jpg
 
 [NOTE.speaker]

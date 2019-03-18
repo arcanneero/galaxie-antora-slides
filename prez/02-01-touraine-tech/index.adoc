@@ -4,7 +4,7 @@
 :revealjs_progress: true
 :revealjs_slideNumber: true
 :revealjs_history: true
-:customcss: /themes/tnt/styles.css
+:customcss: /themes/nts-dev-ops/styles.css
 //:title-slide-background-image: images/galaxy.jpg
 
 [NOTE.speaker]

@@ -50,7 +50,7 @@ Besoin de "déranger" qq'un en permanence
 - Outils trops différents des IDE
 ====
 
-== Absence de partage de connaissance
+== Pas ou peu de partage de connaissance
 
 [NOTE.speaker]
 ====

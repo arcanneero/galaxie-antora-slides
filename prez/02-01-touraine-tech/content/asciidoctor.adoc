@@ -58,7 +58,7 @@ Un warning multi-lignes
 - Syntaxe plus cohérente
 - Les devs ont les droits !
 
-Disclamer : On ne va pas aller plus loins sur asciidoc, cf conf d'hubert Sablonnière
+Disclamer : On ne va pas aller plus loin sur asciidoc, cf conf d'hubert Sablonnière
 
 ====
 

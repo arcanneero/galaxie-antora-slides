@@ -57,6 +57,9 @@ Un warning multi-lignes
 - Insertion de fragment de fichier
 - Syntaxe plus cohérente
 - Les devs ont les droits !
+
+Disclamer : On ne va pas aller plus loins sur asciidoc, cf conf d'hubert Sablonnière
+
 ====
 
 == Parce que la doc ce n'est pas toujours un long fleuve tranquille...
@@ -185,33 +188,63 @@ OK si != de divers !
 [NOTE.speaker]
 ====
 (N)
-
-Comment la problématique d'agrégation a été prise en compte :::
-- Dépot sous format zip des éléments générés
-- Mise en place d'aggrégarteur via Dockerfile (schémas)
-- gestion des liens entre repos
+Comment la problématique d'agrégation a été prise en compte
 ====
 
 == !
 
 image::images/dockers.svg[width=80%]
 
+[NOTE.speaker]
+====
+(N)
+
+Si on reprend le build qu'on a décrit précédemment :::
+* 1 conteneur par composants
+* Si gestion manuel des déploiements => Un frontal pour que les users n'aient pas à gérer les ports d'attaque
+
+Mais quand vous faites ça (pas de K8s), ca peut devenir assez vite fastidieux.
+====
+
 == !
 
 image::images/docker.svg[width=80%]
-
-== !
-
-image::images/pipeline.svg[]
-
-== !
-
-image::images/pipelines.svg[width=80%]
-
 
 [NOTE.speaker]
 ====
 (N)
 
+Optmisation des ressources, et des processus de déploiements.
+
+Ce ne sont finalement que des static => un seul frontal
+
+=> il faut juste agréger !
+====
+
+== !
+
+image::images/pipeline.png[]
+
+[NOTE.speaker]
+====
+(N)
+
+Sauf qu'en réalité, c'est un peu l'enfer.
 C'est clairement complexe et difficile à maintenir
+
+Et ca pose d'autre soucis ... ::
+* Gestion des liens entre repos
+* Gestion des pages, plutot que des documentation complète.
+====
+
+== !
+
+image::images/pipelines.svg[width=80%]
+
+[NOTE.speaker]
+====
+(N)
+En fait, ca c'est mon rève ! ::
+1 dépots où je réupère toute ma doc, que je build, que je package, que je déploie, et le tour est joué !
+
 ====

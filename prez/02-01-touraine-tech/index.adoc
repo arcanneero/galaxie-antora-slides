@@ -12,8 +12,12 @@
 ====
 [N] Bonjour !
 
-[G] Merci d'être venus nous voir.
+Merci d'être venus nous voir.
 C'est un REx : on va vous présenter notre cheminement dans la doc as code.
+
+La documentation as code, c'est un peu se concentrer sur le contenu plus que sur la mise ne page +
+Dans la mouvance du "tout as code" => on ne sort pas de l'ide !
+
 ====
 
 include::content/point-depart.adoc[leveloffset=+1]
@@ -31,8 +35,11 @@ include::content/next-gen.adoc[leveloffset=+1]
 
 === Références
 
+Documentation as Code (expliqué à mon père) par Hubert SABLONNIERE- https://www.youtube.com/watch?v=T6YJlaY0Dpw
+
 @asciidoctor - https://asciidoctor.org/
 
 @antoraproject - https://antora.org/
 
 @revealjs - https://revealjs.com/#/
+

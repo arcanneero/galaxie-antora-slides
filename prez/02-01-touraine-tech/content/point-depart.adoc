@@ -5,9 +5,12 @@
 ====
 (G) Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration
 
+Plateau de développement Onepoint à Nantes, multiprojet, multitechnos.
+
 La documentation projet pour nous c'est : 
 
 * Tout élément complémentaire au code qui permet de comprendre techniquement et / ou fonctionnellement un élément du produit. 
+
 ====
 
 [state=v_background pepper]
@@ -21,6 +24,7 @@ Nicolas : 🐦 @nicgiro
 
 * Lead Tech à Onepoint
 * Couteau suisse français de l'informatque
+* Crafter
 ====
 
 

@@ -35,7 +35,8 @@ include::content/next-gen.adoc[leveloffset=+1]
 
 === Références
 
-Documentation as Code (expliqué à mon père) par Hubert SABLONNIERE- https://www.youtube.com/watch?v=T6YJlaY0Dpw
+Documentation as Code (expliqué à mon père) par Hubert SABLONNIERE +
+https://www.youtube.com/watch?v=T6YJlaY0Dpw
 
 @asciidoctor - https://asciidoctor.org/
 

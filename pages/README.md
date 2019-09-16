@@ -43,7 +43,6 @@ Au travers de leurs retours d'expériences de près de deux ans autour de la doc
 La démo : 
 * [Repo du produit](https://github.com/arcanneero/galaxie-antora-demo)
 * [La démo - Repo de l'aggrégateur](https://github.com/arcanneero/galaxie-antora-demo-playbook)
-* [La démo - Repo de la UI](https://github.com/arcanneero/galaxie-antora-demo-ui)
 
 ## Références
 

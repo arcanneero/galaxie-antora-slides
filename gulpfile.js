@@ -19,11 +19,12 @@ require('asciidoctor-reveal.js');
 // Dossier des sources à builder
 const srcDir = 'prez';
 // Dossier de sortie du build
-const outDir = 'dist';
+const outDir = 'docs';
 // Dossier racine des presentations au runtime (=path d'accès dans l'url. ex: http://..../prez)
-const runtimePrezDir = srcDir;
+let runtimePrezDir = '/galaxie-antora-slides/';
+let cdn = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0';
 // Dossier de sortie du build des présentations
-const prezOutDir = `${outDir}/${runtimePrezDir}`;
+const prezOutDir = `${outDir}`;
 
 // Constantes des extensions à prendre en compte pour les différents items du build
 const adocIndexFiles = [`${srcDir}/**/index.adoc`, `${srcDir}/**/index-*.adoc`];
@@ -33,6 +34,7 @@ const mermaidWatchExtensions = [`${srcDir}/**/*.mmd`];
 const cssExtensions = [`${srcDir}/**/*.css`];
 const jsExtensions = [`${srcDir}/**/*.js`];
 const themesExtensions = [`themes/**/*.*`];
+const pagesExtensions = [`pages/**/*.*`];
 
 gulp.task('convert', () =>
   gulp.src(adocIndexFiles)
@@ -79,7 +81,11 @@ gulp.task('copy-js', () =>
 );
 
 gulp.task('copy-themes', () =>
-  gulp.src(themesExtensions).pipe(gulp.dest(`${outDir}/themes/`))
+    gulp.src(themesExtensions).pipe(gulp.dest(`${outDir}/themes/`))
+);
+
+gulp.task('copy-pages', () =>
+    gulp.src(pagesExtensions).pipe(gulp.dest(`${outDir}/`))
 );
 
 gulp.task('serveAndWatch', () => {
@@ -108,20 +114,26 @@ gulp.task('default', cb =>
   $.sequence(
     'clean',
     'convert',
-    ['dependencies', 'copy-css', 'copy-js', 'copy-medias', 'copy-themes', 'copy-and-generate-mermaid-png'],
+    ['dependencies', 'copy-css', 'copy-js', 'copy-medias', 'copy-themes', 'copy-pages', 'copy-and-generate-mermaid-png'],
     cb
   )
 );
 
 // Build dev files
-gulp.task('serve', cb =>
-  $.sequence('default', 'serveAndWatch', cb)
+gulp.task('serve', cb => {
+    runtimePrezDir = '/';
+    cdn = '/node_modules/reveal.js';
+      $.sequence('default', 'serveAndWatch', cb)
+    }
 );
 
 
 function convertAdocToHtml() {
 
-  const attributes = { 'revealjsdir': `/${runtimePrezDir}/node_modules/reveal.js@` };
+  const attributes = {
+      'revealjsdir': `${cdn}@`,
+      'runtimePrezDir': `${runtimePrezDir}`
+  };
   const options = {
     safe: 'safe',
     backend: 'revealjs',

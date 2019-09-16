@@ -1,9 +1,0 @@
-= Index des présentations
-:toc:
-:source-highlighter: highlightjs
-:revealjs_theme: white
-:revealjs_slideNumber: false
-:revealjs_history: true
-
-== !
-- link:./02-01-touraine-tech/index.html[Touraine Tech]

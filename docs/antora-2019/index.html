@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Du néant à la galaxie Antora</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/league.css" id="theme"><link href="/galaxie-antora-slides/themes/highlight-styles/vs-bttf.css" rel="stylesheet"><script>var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/pdf.css" : "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/paper.css";
+document.getElementsByTagName( 'head' )[0].appendChild( link );</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/html5shiv.js"></script><![endif]--><link rel="stylesheet" href="/galaxie-antora-slides/themes/breizhcamp/styles.css"></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Du néant à la galaxie Antora</h1><div class="preamble"><aside class="notes"><div class="paragraph"><p>[N] Bonjour !</p></div>
+<div class="paragraph"><p>Merci d&#8217;être venus nous voir.
+C&#8217;est un REx : on va vous présenter notre cheminement dans la doc as code.</p></div>
+<div class="paragraph"><p>La documentation as code, c&#8217;est un peu se concentrer sur le contenu plus que sur la mise ne page<br>
+Dans la mouvance du "tout as code" &#8658; on ne sort pas de l&#8217;ide !</p></div></aside></div></section>
+<section><section id="points_de_dpart" data-state="h_background auto_stop"><h2>Points de départ</h2><aside class="notes"><div class="paragraph"><p>(G) Les contextes de nos aventuriers : mise en place du contexte initial avant le démarrage de notre migration</p></div>
+<div class="paragraph"><p>Plateau de développement Onepoint à Nantes, multiprojet, multitechnos.</p></div>
+<div class="paragraph"><p>La documentation projet pour nous c&#8217;est :</p></div>
+<div class="ulist"><ul><li><p>Tout élément complémentaire au code qui permet de comprendre techniquement et / ou fonctionnellement un élément du produit.</p></li></ul></div></aside></section><section id="qui_sommes_nous" data-state="v_background pepper"><h2>Qui sommes nous ?</h2><div class="paragraph"><p>Nicolas : 🐦 @nicgiro</p></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Lead Tech à Onepoint</p></li><li><p>Couteau suisse français de l&#8217;informatque</p></li><li><p>Crafter</p></li></ul></div></aside></section><section id="qui_sommes_nous_2" data-state="v_background storm_papa"><h2>Qui sommes nous ?</h2><div class="paragraph"><p>Gautier : 🐦 @darkjabberwock</p></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="ulist"><ul><li><p>Freelance</p></li><li><p>Jug Leader</p></li><li><p>Opensource addict</p></li></ul></div></aside></section><section id="de_l_utile"><h2>De l&#8217;utile&#8230;&#8203;</h2><div class="paragraph"><p>Janvier 2017 : Début de projet "from scratch"</p></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Début d&#8217;un projet (01-17) from scratch en tant que lead dev en binome</p></div>
+<div class="ulist"><ul><li><p>Besoin de documenter ce qui est fait, mais peu de temps</p></li><li><p>Expérience passé en markdown, donc on fait quelques doc markdown, un peu de wiki</p></li><li><p>Doc contractuelle traditionnelle (suite bureautique)</p></li><li><p>Un binome contributeur Asciidoctor.js&#8230;&#8203;</p></li><li><p>J&#8217;ai fuis au bout de 3 mois</p></li></ul></div></aside></section><section id="l_indispensable" data-transition="zoom"><h2>&#8230;&#8203;à l&#8217;indispensable</h2><div class="paragraph"><p>Janvier 2018 : Récupération d&#8217;un projet historique</p></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Nouveau projet (01-18) &#8658; mise en place de doc as code sans concessions</p></div></aside></section><section id="une_ncessit"><h2>Une nécessité&#8230;&#8203;</h2><div class="paragraph"><p>Déjà sensibilisé à la Doc As Code</p></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>Blog hubpress (asciidoctor sur github-pages) par un contributeur Asciidoctor.js&#8230;&#8203;.</p></div>
+<div class="paragraph"><p>Prise de note et slide deck (asciidoctor-revealjs) en adoc.</p></div></aside></section><section id="devenue_vitale"><h2>&#8230;&#8203;devenue vitale</h2><div class="paragraph"><p>Septembre 2017 : Arrivé sur un projet de moins d&#8217;un an</p></div>
+<aside class="notes"><div class="paragraph"><p>(G) Bien appuyer sur le fait que le projet c&#8217;est le même.</p></div>
+<div class="paragraph"><p>Arrivé en prestation sur un projet (09-17) (potentiellement le même !) dans le role de tech lead
+Souhaite accéder à la documention :</p></div>
+<div class="ulist"><ul><li><p>Doc pas à jour</p></li><li><p>Absence de lead pendant un bon semestre</p></li><li><p>Doc dans des GED (format traditionnel)</p></li><li><p>Pas forcément tout les droits (presta)</p></li></ul></div></aside></section><section id="le_partage_de_connaissance" data-state="v_background pont"><h2>Le partage de connaissance</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Ce qui nous lie </dt><dd><div class="ulist"><ul><li><p>Une sensibilité à la doc</p></li><li><p>Un seul but : Le partage de connaissance</p></li></ul></div></dd></dl></div></aside></section></section>
+<section><section id="zoom_sur_les_quipes" data-state="h_background face_au_lac"><h2>Zoom sur les équipes</h2><aside class="notes"><div class="paragraph"><p>(N) Dans Les équipes&#8230;&#8203;</p></div></aside></section><section id="ca_pourrait_tre_pire"><h2>Ca pourrait être pire&#8230;&#8203;</h2><aside class="notes"><div class="paragraph"><p>(N)
+Peu de documents "bureautiques"</p></div>
+<div class="paragraph"><p>Outils Wiki qui apportent une syntaxes simplifiées (SP)
+Ou un peu de markdown (readme)</p></div>
+<div class="paragraph"><p>Mais ca s&#8217;arrête là&#8230;&#8203;</p></div></aside></section><section id="oui_mais" data-state="v_background ponton"><h2>Oui, mais&#8230;&#8203;</h2><aside class="notes"><div class="paragraph"><p>(N) Là, on a une collection !</p></div>
+<div class="paragraph"><p>Enfonçons des portes ouvertes&#8230;&#8203;</p></div></aside></section><section id="frustration"><h2>Frustration</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>Besoin de "déranger" qq&#8217;un en permanence</p></div></aside></section><section id="difficults_de_mises__jour"><h2>Difficultés de mises à jour</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Processus de maj long et fastidieux (a décrire)</p></li><li><p>Outils trops différents des IDE</p></li></ul></div></aside></section><section id="pas_ou_peu_de_partage_de_connaissance"><h2>Pas ou peu de partage de connaissance</h2><aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="ulist"><ul><li><p>Pas de relecture (hors contractuelle)</p></li><li><p>Personnnes rendues indispensables</p></li><li><p>Connaissances morcelées (!= outils)</p></li></ul></div></aside></section><section id="il_y_a_peut_tre_une_solution" data-state="v_background ampoules"><h2>Il y a peut être une solution</h2></section></section>
+<section><section id="asciidoctor" data-state="h_background clavier"><h2>Asciidoctor</h2><div class="imageblock" style=""><img src="images/asciidoc.png" alt="asciidoc" width="20%"></div><div class="paragraph"><p>🐦 @asciidoctor</p></div><aside class="notes"><div class="paragraph"><p>(G)
+Utilisé par des gros projets : hibernate / fedora</p></div>
+<div class="paragraph"><p>Spec Asciidoc : Vient d&#8217;intégrer la fondation Eclipse (7 Janvier 2019)</p></div></aside></section><section id="pourquoi_cet_outil"><h2>Pourquoi cet outil ?</h2><aside class="notes"><div class="paragraph"><p>(G) Volonté d&#8217;aller vers la doc as code.
+De rapprocher la doc du code (dans les dépôts git)</p></div>
+<div class="paragraph"><p>Deux vrai possibilité : Markdown vs Asciidoctor</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Définir les deux </dt><dd><div class="ulist"><ul><li><p>balisage faible</p></li><li><p>proche d&#8217;un format wiki</p></li></ul></div></dd></dl></div></aside></section><section id="exemple_de_syntaxe"><h2>Exemple de syntaxe</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="adoc language-adoc">= Un titre
+== Un sous-titre
+
+[WARNING]
+--
+Un warning multi-lignes
+
+* item 1
+* item 2
+--</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Quelques simplicité syntaxiques</p></li><li><p>Gestion dans un Git</p></li><li><p>Pas de problème de flavours (spec Asciidoc)</p></li><li><p>Insertion de fragment de fichier</p></li><li><p>Syntaxe plus cohérente</p></li><li><p>Les devs ont les droits !</p></li></ul></div>
+<div class="paragraph"><p>Disclamer : On ne va pas aller plus loin sur asciidoc, cf conf d&#8217;hubert Sablonnière</p></div></aside></section><section id="parce_que_la_doc_ce_n_est_pas_toujours_un_long_fleuve_tranquille"><h2>Parce que la doc ce n&#8217;est pas toujours un long fleuve tranquille&#8230;&#8203;</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>La doc as code, ca pose quand même des problèmes qu&#8217;on a pas autrement&#8230;&#8203;</p></div></aside></section><section id="build_deploy" data-state="v_background nappes"><h2>Build &amp; deploy</h2><aside class="notes"><div class="paragraph"><p>(N) En Ruby, mais&#8230;&#8203;</p></div>
+<div class="paragraph"><p>Accessible à tous, grace à JRuby ou JS (merci au transpiler <a href="http://opalrb.com/" class="bare">http://opalrb.com/</a>)</p></div></aside></section><section id="gradle"><h2>Gradle</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="groovy language-groovy">asciidoctor {
+    backends 'html5', 'pdf'
+    dependsOn clean
+    sourceDir = file('src/asciidoc')
+    sources {
+        include '**/*.adoc'
+        exclude '**/content/**'
+    }
+    resources {
+        from (sourceDir) {
+            include '**/resources/**'
+        }
+    }
+    outputDir = file('build/docs')
+}</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Mise en place de build avec Graddle </dt><dd><div class="ulist"><ul><li><p>Syntaxe ultra simple</p></li><li><p>Génération de PDF</p></li></ul></div></dd></dl></div></aside></section><section id="dockerfile"><h2>Dockerfile</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape>FROM nginx
+
+COPY build/docs/html5 /usr/share/nginx/html</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Déploiement Continue - Jenkins / Docker / NginX</p></div></aside></section><section id="mais_nos_dpts_deviennent_bordliques"><h2>Mais nos dépôts deviennent bordéliques</h2><div class="imageblock" style=""><img src="images/sacdenoeuds.jpg" alt="sacdenoeuds"></div>
+<aside class="notes"><div class="paragraph"><p>(N)
+Mais nos dépôts deviennent bordéliques.</p></div>
+<div class="paragraph"><p>&#8658; Expliquer pourquoi c&#8217;est devenu bordélique.</p></div>
+<div class="paragraph"><p>&#8658; Divers = Boite à merde</p></div></aside></section><section id="une_structuration_partage" data-state="v_background neurone"><h2>Une structuration partagée</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Plusieurs projets sur un plateau</p></li><li><p>Pourquoi ne pas avoir une base commune ?</p></li><li><p>Ce sont finalement les mêmes questions qu&#8217;avec une doc traditionnelle</p></li></ul></div>
+<div class="paragraph"><p>Convention over configuration</p></div></aside></section><section><div class="imageblock" style=""><img src="images/structure.png" alt="structure" width="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Démarrage - Quickstart</p></li><li><p>Environnements - Environments</p></li><li><p>Recommendations - Guidelines</p></li><li><p>Manuels - How to</p></li></ul></div>
+<div class="paragraph"><p>Mais c&#8217;est une doc orienté produit.
+Il y a d&#8217;autre besoins dans la vie d&#8217;un projet.</p></div></aside></section><section><div class="imageblock" style=""><img src="images/structure-2.png" alt="structure 2" width="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>Nouveaux besoin &#8658;  Ajout de domain organisationnel / suivi de projet</p></div>
+<div class="paragraph"><p>OK si != de divers !</p></div></aside></section><section id="et_si_on_avait_plusieurs_dpts"><h2>Et si on avait plusieurs dépôts ?</h2><aside class="notes"><div class="paragraph"><p>(N)
+Comment la problématique d&#8217;agrégation a été prise en compte</p></div></aside></section><section><div class="imageblock" style=""><img src="images/dockers.svg" alt="dockers" width="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Si on reprend le build qu&#8217;on a décrit précédemment </dt><dd><div class="ulist"><ul><li><p>1 conteneur par composants</p></li><li><p>Si gestion manuel des déploiements &#8658; Un frontal pour que les users n&#8217;aient pas à gérer les ports d&#8217;attaque</p></li></ul></div></dd></dl></div>
+<div class="paragraph"><p>Mais quand vous faites ça (pas de K8s), ca peut devenir assez vite fastidieux.</p></div></aside></section><section><div class="imageblock" style=""><img src="images/docker.svg" alt="docker" width="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Optmisation des ressources, et des processus de déploiements.</p></div>
+<div class="paragraph"><p>Ce ne sont finalement que des static &#8658; un seul frontal</p></div>
+<div class="paragraph"><p>&#8658; il faut juste agréger !</p></div></aside></section><section><div class="imageblock" style=""><img src="images/pipeline.png" alt="pipeline"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Sauf qu&#8217;en réalité, c&#8217;est un peu l&#8217;enfer.
+C&#8217;est clairement complexe et difficile à maintenir</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Et ca pose d&#8217;autre soucis &#8230;&#8203; </dt><dd><div class="ulist"><ul><li><p>Gestion des liens entre repos</p></li><li><p>Gestion des pages, plutot que des documentation complète.</p></li></ul></div></dd></dl></div></aside></section><section><div class="imageblock" style=""><img src="images/pipelines.svg" alt="pipelines" width="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)
+En fait, ca c&#8217;est mon rève ! ::
+1 dépots où je réupère toute ma doc, que je build, que je package, que je déploie, et le tour est joué !</p></div></aside></section></section>
+<section><section id="antora" data-state="h_background ponton"><h2>Antora</h2><div class="imageblock" style=""><img src="images/antora.png" alt="antora" width="20%"></div><div class="paragraph"><p>🐦 @antoraproject</p></div><aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Au détour d&#8217;un café, Gautier parle d&#8217;Antora
+(Décembre 2017- L&#8217;alpha n&#8217;est pas sortie)</p></div></aside></section><section><div class="imageblock" style=""><img src="images/too-busy-to-innovate.png" alt="60%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Premiers tests autour de mars 2018 - Très mauvais premères impressions</p></div>
+<div class="ulist"><ul><li><p>Structure très stricte (trop ?) - Convention over configuration</p></li><li><p>Et sous Windows, c&#8217;était l&#8217;enfer&#8230;&#8203; (ssh agent)</p></li></ul></div></aside></section><section id="antora_2"><h2>Antora</h2><div class="imageblock" style=""><img src="images/antora.png" alt="antora" width="20%"></div>
+<div class="paragraph"><p>🐦 @antoraproject</p></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Un outil qui traite de vrais problèmes qui se posent quand on fait de l&#8217;asciidoc </dt><dd><div class="ulist"><ul><li><p>SEO du site de documentation (public)</p></li><li><p>Aggrégation de contenu (1 seul endroit pour récupérer un ensemble)</p></li><li><p>Gestion de liens entre les contenus</p><div class="literalblock"><div class="content"><pre>Transition pour les fonctionnalités du produit !</pre></div></div></li></ul></div></dd></dl></div></aside></section><section id="l_aggrgateur_ou_playbook" data-state="v_background carte_mere"><h2>L&#8217;aggrégateur ou playbook</h2></section><section><div class="imageblock" style=""><img src="images/playbook.png" alt="playbook" width="60%"></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Un descripteur - playbook</p></li><li><p>Des dépots - git</p></li><li><p>Un thème - ui</p></li></ul></div></aside></section><section id="les_dpots"><h2>Les dépots</h2><div class="imageblock" style=""><img src="images/descripteur.png" alt="descripteur" width="60%"></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="ulist"><ul><li><p>Un descripteur - antora.yml</p></li><li><p>Des modules</p></li></ul></div></aside></section><section id="les_modules"><h2>Les modules</h2><div class="imageblock" style=""><img src="./images/arbo-module.png" alt="Arboresence d'un module" width="40%"></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p><code>nav.adoc</code> par convention.
+Permet de construire le menu</p></div>
+<div class="paragraph"><p>Assets contient les images et autres ressources</p></div></aside></section><section id="ui" data-state="v_background siege_paris_1"><h2>UI</h2><aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Partie sans aucun doute la plus velue.</p></div>
+<div class="paragraph"><p>Customizable moyennant quelques compétances Front-End</p></div>
+<div class="paragraph"><p><a href="https://docs.couchbase.com/home/index.html" class="bare">https://docs.couchbase.com/home/index.html</a></p></div></aside></section><section id="handlebars_js"><h2>handlebars.js</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="html language-html">{{#if page.versions}}
+&lt;div class="page-versions"&gt;
+  &lt;button class="versions-menu-toggle" title="Show other versions of page"&gt;{{page.componentVersion.displayVersion}}&lt;/button&gt;
+  &lt;div class="versions-menu"&gt;
+    {{#each page.versions}}
+    &lt;a class="version
+      {{~#if (eq ./version @root.page.version)}} is-current{{/if~}}
+      {{~#if ./missing}} is-missing{{/if}}" href="{{{relativize @root.page.url ./url}}}"&gt;{{./displayVersion}}&lt;/a&gt;
+    {{/each}}
+  &lt;/div&gt;
+&lt;/div&gt;
+{{/if}}</code></pre></div></div></section><section><div class="imageblock" style=""><img src="./images/antora-docs.png" alt="Default UI" width="100%"></div>
+<div class="paragraph"><p><a href="https://docs.antora.org/antora/2.0">Antora</a></p></div></section><section><div class="imageblock" style=""><img src="./images/couchbase.png" alt="Couchbase UI" width="90%"></div>
+<div class="paragraph"><p><a href="https://docs.couchbase.com/server/6.0/introduction/intro.html">Couchbase</a></p></div></section><section id="regardons_un_projet" data-state="v_background min_js"><h2>Regardons un projet&#8230;&#8203;</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>Demonstration Time</p></div></aside></section><section id="focus_sur_les_liens"><h2>Focus sur les liens</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="adoc language-adoc">* xref:index.adoc[In-module page]
+* xref:other-module:page.adoc[Page in the same component, but a different module]
+*** xref:other-module:page.adoc#fragment[A deep link to a page in the same component, but a different module]
+*** xref:other-component:module:page.adoc[Page in another component]</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div></aside></section><section id="l_intgration_dans_nos_projets" data-state="v_background simple"><h2>L&#8217;intégration dans nos projets</h2><aside class="notes"><div class="paragraph"><p>(N)</p></div></aside></section><section id="avoir_la_doc_au_plus_prs_du_code_du_produit"><h2>Avoir la doc au plus près du code du produit</h2><aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="ulist"><ul><li><p>Chaque produit contient sa doc</p></li><li><p>Constitution de dépot spécifique pour les pratiques communes</p></li><li><p>Les dépots annexes ont aussi leur documentation (infra as code, chatbot d&#8217;équipe)</p></li></ul></div></aside></section><section id="mise_en_place_des_processus_de_dev_sur_la_doc"><h2>Mise en place des processus de dev sur la doc</h2><aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="ulist"><ul><li><p>Merge request / relecture / approbations</p></li><li><p>Déploiement continu</p></li></ul></div></aside></section><section id="scurisation_des_accs"><h2>Sécurisation des accès</h2><div class="imageblock" style=""><img src="./images/antora-pipeline.png" alt="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Partage des rendu potentiellement sous autentification </dt><dd><div class="ulist"><ul><li><p>Frontal permettant l&#8217;accès total (gestion partielle trop complexe)</p></li><li><p>Plusieurs aggrégateurs (dont certains dépots commun) pour plusieurs "set" de droits</p></li></ul></div></dd></dl></div></aside></section><section id="pipeline"><h2>Pipeline</h2><div class="imageblock" style=""><img src="./images/pipelines.png" alt="80%"></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div></aside></section><section id="les_perspectives_et_limitations" data-state="v_background wall_e"><h2>Les perspectives et limitations</h2></section><section id="projet_vivant"><h2>Projet vivant</h2><div class="paragraph"><p>Version 2 publiée le 25 décembre 2018</p></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div></aside></section><section id="intgration_d_un_moteur_de_recherche"><h2>Intégration d&#8217;un moteur de recherche</h2><div class="paragraph"><p>Doit être intégré manuellement pour le moment</p></div>
+<aside class="notes"><div class="paragraph"><p>(N)</p></div>
+<div class="paragraph"><p>Intégration d&#8217;un moteur de recherche
+- Algolia
+- Elasticsearch (fess)</p></div></aside></section><section id="multi_langues"><h2>Multi-langues</h2><aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="dlist"><dl><dt class="hdlist1">Il existe plusieurs façon de gérer la langue </dt><dd><div class="ulist"><ul><li><p>inclusions multiples d&#8217;un composants en pointant sur un dossier différents par langue</p></li><li><p>dans l&#8217;arborescence des modules prévoir une sous-arboresence par langue dès le départ</p><div class="ulist"><ul><li><p>nécessite des adaptations de la UI pour gérer les navigations</p></li></ul></div></li></ul></div></dd></dl></div></aside></section><section id="amliorations_en_vrac"><h2>Améliorations en vrac</h2><aside class="notes"><div class="paragraph"><p>Gestion d&#8217;un thème différents selon les compsants</p></div>
+<div class="paragraph"><p>Aggrégation de slidesdeck</p></div>
+<div class="paragraph"><p>Amélioration de la cli</p></div>
+<div class="paragraph"><p>(G)</p></div>
+<div class="olist arabic"><ol class="arabic"><li><p>Actuellement, nous avons forcément un seul et unique thème par playbook</p></li><li><p>Besoin très personnel mais qui serait très différenciant !</p></li><li><p>Divers point :</p><div class="ulist"><ul><li><p>Générer un squelette de playbook</p></li><li><p>Générer un nouveau composant</p></li><li><p>Générer un nouveau module</p></li></ul></div></li></ol></div></aside></section></section>
+<section><section id="pour_aller_plus_loin" data-state="h_background ciel"><h2>Pour aller plus loin</h2><aside class="notes"><div class="paragraph"><p>(G)
+On a parlé de la documentation "as Word", allons un peu plus loin</p></div></aside></section><section id="plant_uml"><h2>Plant UML</h2><div class="literalblock"><div class="content"><pre>class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor &lt;|-- DiagramBlock
+DiagramBlock &lt;|-- DitaaBlock
+DiagramBlock &lt;|-- PlantUmlBlock</pre></div></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div></aside></section><section><div class="imageblock" style=""><img src="images/asciidoctor-diagram-classes.png" alt="asciidoctor diagram classes"></div>
+<aside class="notes"><div class="paragraph"><p>(G)
+Pour faire des diagrammes</p></div></aside></section><section id="les_slidesdeck"><h2>Les slidesdeck</h2><div class="paragraph"><p>RevealJS / Deckonf.io</p></div>
+<aside class="notes"><div class="paragraph"><p>(G)</p></div>
+<div class="paragraph"><p>Intégration d&#8217;asciidoctor.js à reveallJS
+ou des initiatives : Deckonf.io</p></div>
+<div class="paragraph"><p>Pas d&#8217;intégration avec Antora
+Gestion manuelle pour avoir un contenu aggrégé</p></div></aside></section><section id="et_bien_d_autres"><h2>Et bien d&#8217;autres&#8230;&#8203;</h2></section></section>
+<section><section id="avez_vous_des_questions" data-state="h_background idee"><h2>Avez-vous des questions ?</h2></section><section id="rfrences"><h2>Références</h2><div class="paragraph"><p>Documentation as Code (expliqué à mon père) par Hubert SABLONNIERE<br>
+<a href="https://www.youtube.com/watch?v=T6YJlaY0Dpw" class="bare">https://www.youtube.com/watch?v=T6YJlaY0Dpw</a></p></div>
+<div class="paragraph"><p>@asciidoctor - <a href="https://asciidoctor.org/" class="bare">https://asciidoctor.org/</a></p></div>
+<div class="paragraph"><p>@antoraproject - <a href="https://antora.org/" class="bare">https://antora.org/</a></p></div>
+<div class="paragraph"><p>@revealjs - <a href="https://revealjs.com/#/" class="bare">https://revealjs.com/#/</a></p></div></section></section></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Set a per-slide timing for speaker notes, null means none
+  defaultTiming: null,
+  // Display the page number of the current slide
+  slideNumber: true,
+  // Push each slide change to the browser history
+  history: true,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Randomizes the order of slides each time the presentation loads
+  shuffle: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Flags if we should show a help overlay when the questionmark
+  // key is pressed
+  help: true,
+  // Flags if speaker notes should be visible to all viewers
+  showNotes: false,
+  // Global override for autolaying embedded media (video/audio/iframe)
+  // - null: Media will only autoplay if data-autoplay is present
+  // - true: All media will autoplay, regardless of individual setting
+  // - false: No media will autoplay, regardless of individual setting
+  autoPlayMedia: null,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'league',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/zoom-js/zoom.js', async: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js', async: true }
+  ]
+});</script></body></html>

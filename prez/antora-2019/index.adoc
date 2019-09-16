@@ -1,0 +1,47 @@
+= Du néant à la galaxie Antora
+:source-highlighter: highlightjs
+:revealjs_theme: league
+:revealjs_progress: true
+:revealjs_slideNumber: true
+:revealjs_history: true
+:revealjs_history: true
+:customcss: {runtimePrezDir}themes/breizhcamp/styles.css
+:highlightjs-theme: {runtimePrezDir}themes/highlight-styles/vs-bttf.css
+//:title-slide-background-image: images/galaxy.jpg
+
+[NOTE.speaker]
+====
+[N] Bonjour !
+
+Merci d'être venus nous voir.
+C'est un REx : on va vous présenter notre cheminement dans la doc as code.
+
+La documentation as code, c'est un peu se concentrer sur le contenu plus que sur la mise ne page +
+Dans la mouvance du "tout as code" => on ne sort pas de l'ide !
+
+====
+
+include::content/point-depart.adoc[leveloffset=+1]
+
+include::content/feelings.adoc[leveloffset=+1]
+
+include::content/asciidoctor.adoc[leveloffset=+1]
+
+include::content/antora.adoc[leveloffset=+1]
+
+include::content/next-gen.adoc[leveloffset=+1]
+
+[state=h_background idee]
+== Avez-vous des questions ?
+
+=== Références
+
+Documentation as Code (expliqué à mon père) par Hubert SABLONNIERE +
+https://www.youtube.com/watch?v=T6YJlaY0Dpw
+
+@asciidoctor - https://asciidoctor.org/
+
+@antoraproject - https://antora.org/
+
+@revealjs - https://revealjs.com/#/
+
